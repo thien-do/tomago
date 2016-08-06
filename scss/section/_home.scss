@@ -1,0 +1,99 @@
+.home-section {
+
+	padding-bottom: $info-panel-height;
+	@media #{$medium-up} {
+		min-height: 50rem;
+		padding-bottom: $info-panel-height-medium;
+	}
+
+	> .cover {
+		position: relative;
+		height: 100%;
+		
+		.res-title {
+			// center vertically
+			top: 0; bottom: 0;
+			height: 4.6rem;
+			@media #{$small-only} { padding: 0 2rem }
+			@media #{$medium-up} { height: 12rem }
+
+			> * { color: white }
+		}
+	}
+
+	> .home-info {
+		width: 100%;
+		height: $info-panel-height;
+		@media #{$medium-up} { height: $info-panel-height-medium }
+
+		> .main-info {
+			position: relative;
+
+			// thumbnail
+			.multiple-th, .circle-th {
+				position: absolute;
+				top: -6.7rem; left: 2.1rem;
+				width: 7.8rem; height: 7.8rem;
+
+				@media #{$medium-up} {
+					top: 3.7rem; left: 2.8rem;
+					width: 10.4rem; height: 10.4rem;
+					.th { border: 4px solid white }
+				}
+			}
+
+			// info-list
+			.res-info-list {
+				margin-top: 2.6rem;
+				//margin-left: 0;
+
+				@media #{$medium-up} {
+					margin-top: 4.0rem;
+					margin-left: 16.8rem;
+				}
+			}
+
+			// tag list or recent list
+			ul.tag-list, ul.recent-res {
+				position: absolute;
+				top: -6.4rem; left: 11.8rem;
+				@media #{$medium-up} {
+					top: 17.6rem; left: 2.8rem;
+				}
+			}
+			ul.tag-list {
+				margin-left: 0;
+				margin-bottom: -0.8rem;
+				li.label { margin: 0 0.8rem 0.8rem 0 }
+
+				@media #{$small-only} {
+					li.label {
+						background-color: transparent;
+						border: solid white 1px;
+						color: white;
+					}
+				}
+			}
+			
+		}
+
+		> .navigation {
+			position: fixed;
+			z-index: 3;
+			bottom: 0;
+			padding: 0;
+
+			height: 100%;
+			overflow: hidden;
+
+			@media #{$small-only} {
+				padding: 0;
+				height: 7.4rem;
+				border-top: 2px solid $gray96;
+			}
+			@media #{$medium-up} {
+				position: static;
+			}
+		}
+	}
+}

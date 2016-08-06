@@ -1,0 +1,27 @@
+ul.res-info-list {
+	// info item
+	li {
+		font-weight: $font-weight-semi-bold;
+		font-size: 1.3rem;
+		color: $gray7;
+		//line-height: 12;
+		text-transform: uppercase;
+
+		padding-left: 0.6rem;
+		margin-bottom: 0.7rem;
+
+		// icon
+		i {
+			color: $gray9;
+			font-size: 1.6rem;
+		}
+
+		.hightlight {
+			color: $red;
+		}
+
+		.black {
+			font-weight: $font-weight-black;
+		}
+	}
+}

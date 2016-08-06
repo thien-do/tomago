@@ -1,0 +1,47 @@
+// tab
+// reset
+.tabs-content, .tabs {
+	&, *:not(.important) {
+		outline: none;
+		margin: 0; padding: 0;
+	}
+}
+
+.tabs-content {
+
+}
+.tabs {
+	text-align: center;
+	border-top: $gray9 solid 2px;
+
+	.tab-title {
+		display: inline-block;
+		padding-top: 1.6rem;
+		float: none;
+
+		box-shadow: 0 -2px 0 transparent;
+		transition: all 0.2s;
+
+		a {
+			@extend .pill;
+			background-color: transparent;
+			font-size: 1.4rem;
+
+			transition: color 0.2s;
+
+			&:hover {
+				background-color: transparent;
+				color: $primary-color
+			}
+		}
+		&.active {
+			box-shadow: 0 -2px 0 $primary-color;
+			a { color: $primary-color }
+		}
+	}
+
+	.divider {
+		color: $gray8;
+		font-size: 1.4rem;
+	}
+}

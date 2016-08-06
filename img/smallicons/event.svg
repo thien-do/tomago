@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.4 (8054) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-772.000000, -680.000000)">
+            <g id="1.-Home" sketch:type="MSLayerGroup">
+                <g id="Info" transform="translate(0.000000, 512.000000)" sketch:type="MSShapeGroup">
+                    <g id="Action" transform="translate(384.000000, 0.000000)">
+                        <g id="Events" transform="translate(320.000000, 0.000000)">
+                            <g id="Icon" transform="translate(68.000000, 168.000000)">
+                                <g id="megaphone">
+                                    <path d="M3.00075,13.5015 L7.50075,13.5015 L7.50075,22.50225 C7.50075,23.33025 6.82875,24.0015 6.00075,24.0015 L4.5,24.0015 C3.672,24.0015 3,23.33025 3,22.50225 L3,13.5015 L3.00075,13.5015 Z" id="Shape" fill="#E4E7E7"></path>
+                                    <path d="M3,13.5015 L3,18.00225 L7.50075,13.5015 L3,13.5015 L3,13.5015 Z" id="Shape" fill="#CDCFCF"></path>
+                                    <path d="M7.5,13.5015 L10.5,13.5015 L10.5,15.0015 C10.5,15.83025 9.828,16.5015 9,16.5015 L7.5,16.5015 L7.5,13.5015 L7.5,13.5015 Z" id="Shape" fill="#676767"></path>
+                                    <path d="M1.5,4.5015 L10.5,4.5015 L10.5,13.5015 L1.5,13.5015 C0.672,13.5015 0,12.83025 0,12.0015 L0,6.0015 C0,5.1735 0.672,4.5015 1.5,4.5015 L1.5,4.5015 Z" id="Shape" fill="#E2574C"></path>
+                                    <path d="M23.1225,0.0015 C18.70125,4.42275 15,4.5015 15,4.5015 L10.5,4.5015 L10.5,13.5015 L15,13.5015 C15,13.5015 18.693,13.572 23.1225,18.0015 L24,18.0015 L24,0.0015 L23.1225,0.0015 L23.1225,0.0015 Z" id="Shape" fill="#E4E7E7"></path>
+                                    <path d="M23.1225,0.0015 C22.91325,0.21075 22.70625,0.402 22.5,0.5925 L22.5,17.4105 C22.70625,17.601 22.9125,17.79225 23.1225,18.0015 L24,18.0015 L24,0.0015 L23.1225,0.0015 L23.1225,0.0015 Z" id="Shape" fill="#D1D6D7"></path>
+                                    <path d="M22.5,16.6605 C18.35325,12.82425 15,12.7515 15,12.7515 L10.5,12.7515 L10.5,13.5015 L15,13.5015 C15,13.5015 18.693,13.572 23.1225,18.0015 C22.9125,17.79225 22.70625,17.601 22.5,17.4105 L22.5,16.6605 L22.5,16.6605 Z" id="Shape" fill="#CDCFCF"></path>
+                                    <path d="M22.5,16.6605 L22.5,17.4105 C22.70625,17.601 22.9125,17.79225 23.1225,18.0015 L24,18.0015 L24,17.2515 L23.1225,17.2515 C22.9125,17.04225 22.70625,16.851 22.5,16.6605 L22.5,16.6605 Z" id="Shape" fill="#BCC0C1"></path>
+                                    <path d="M2.25,12.7515 C1.422,12.7515 0.75,12.08025 0.75,11.2515 L0.75,5.2515 C0.75,5.03175 0.7995,4.82475 0.885,4.6365 C0.3645,4.872 0,5.39325 0,6.0015 L0,12.0015 C0,12.83025 0.672,13.5015 1.5,13.5015 L10.5,13.5015 L10.5,12.7515 L2.25,12.7515 L2.25,12.7515 Z" id="Shape" fill="#CB4E44"></path>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

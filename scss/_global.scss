@@ -1,0 +1,80 @@
+@import "components/*";
+
+// Turn off touch feedback
+body { 
+	* {
+		-webkit-tap-highlight-color: rbga(255, 255, 255, 0);
+		-webkit-tap-highlight-color: transparent;
+		-webkit-user-select: none;
+	}
+    *:not(.no-smooth) {
+    	-webkit-font-smoothing: subpixel-antialiased;
+    }
+}
+
+// == GLOBAL ULTILITIES
+
+// white thin line as border
+.white-line {
+	transition: all 0.2s;
+
+	border: solid white 1px;
+	@media #{$medium-up} { border: solid white 2px }
+	
+	background-color: transparent;
+	color: white;
+	&:hover {
+		background-color: fade-out(white, 0.9);
+		color: white;
+	}
+
+	&.toggle.selected, &.toggle.active {
+		background-color: white;
+		color: $red;
+	}
+}
+// just round. anything.
+.round {
+	border-radius: 100%;
+}
+// set height = 100%
+.full-height {
+	height: 100%;
+}
+
+// == STRUCTURE
+
+// put positon to absolute with z-index = 2
+.float {
+	position: absolute;
+	z-index: 2;
+}
+// "container" has full width but no more than 1024, and centered
+.container {
+	// width
+	width: 100%;
+	max-width: 102.4rem;
+	// center
+	margin: auto;
+	&.float { left: 0; right: 0; }
+}
+// align top and bottom for dynamic position
+.align-top:not(#important)    { top: 0; bottom: auto }
+.align-bottom:not(#important) { top: auto; bottom: 0 }
+
+// text-link
+.text-link {
+	border-bottom: dashed 1px transparent;
+	transition: all 0.2s;
+	&:hover {
+		border-bottom-color: $primary-color;
+	}
+}
+
+// == CALLOUTS AND PROMTS
+#map-canvas {
+	background: url('../img/text/map-loading.png') no-repeat;
+	background-color: #EAE6DD !important;
+	background-size: 19.3rem 9rem;
+	background-position: top;
+}

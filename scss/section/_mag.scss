@@ -1,0 +1,99 @@
+@import "mag_menu";
+
+#res-mag {
+	height: 100%;
+	min-height: 54.4rem;
+	@media #{$medium-up} {
+		min-height: 66rem;
+	}
+	> .container {
+		position: relative;
+
+		height: 100%;
+		padding: 4.8rem 1.6rem 12rem;
+		@media #{$medium-up} {
+			padding: 4.8rem 3.2rem 12rem;
+		}
+
+		> .tabs-content {
+			&, > section {
+				width: 100%; height: 100%;
+			}
+		}
+
+		> .tabs {
+			position: absolute;
+			bottom: 0; left: 0; right: 0;
+
+			width: 70%; height: auto;
+			padding-bottom: 2.4rem;
+			margin: 5.6rem auto 0;
+			@media #{$medium-up} {
+				padding-bottom: 3.2rem;
+				margin: 3.2rem auto 0;
+			}
+		}
+	}
+
+	.slick-slider {
+		.slick-prev::before, .slick-next::before {
+			color: $primary-color;
+		}
+		.slick-prev { left: -4rem }
+		.slick-next { right: -4rem }
+	}
+
+	.slick-dots {
+		left: 0;
+		bottom: -3.6rem;
+	}
+}
+
+#gallery-section {
+	position: relative;
+	background-color: $gray2;
+
+	.gallery-main {
+		background: url('../img/text/gallery-loading.png') no-repeat center;
+		background-size: 21.3rem 3.5rem;
+
+		&,
+		.slick-list, .slick-track,
+		.gallery-main-picture, .gallery-main-picture > img {
+			height: 100%;
+		}
+		@media #{$small-only} {
+			margin-left: -1.6rem; margin-right: -1.6rem;
+			.gallery-main-picture > img {
+				position: absolute;
+				top: -999rem; bottom: -999rem;
+				left: -999rem; right: -999rem;
+				width: auto; height: 100%;
+				max-width: none;
+			}
+		}
+		.gallery-main-picture {
+			//background-color: $gray2;
+			text-align: center;
+			img {
+				
+				margin: auto;
+			}
+		}
+	}
+
+	@media #{$small-only} {
+		.slick-slider {
+			.slick-prev, .slick-next {
+				width: 4rem; height: 4rem;
+				//background-color: fade-out(white, 0.9);
+				&:before {
+					color: fade-out(white, 0.3);
+					line-height: 4rem;
+				}
+			}
+			.slick-prev { left: 0rem }
+			.slick-next { right: 0rem }
+		}
+	}
+}

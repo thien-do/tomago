@@ -1,0 +1,54 @@
+#res-eam {
+
+	ul.slick-dots {
+		margin-left: 0;
+	}
+
+	@media #{$small-only} {
+		height: auto;
+		max-height: none;
+	}
+
+	> div.complex-background {
+		@media #{$small-only} {
+			#map-canvas {
+				position: static;
+				height: 20rem;
+			}
+			> .shadow.align-bottom.show-for-small-only {
+				bottom: 0; top: 19.4rem;
+			}
+			> .content-wrapper {
+				position: static;
+			}
+		}
+		> .content-wrapper {
+			height: auto;
+			top: auto; bottom: 0rem;
+			z-index: 0;
+
+			padding: 0;
+
+			@media #{$medium-up} {
+				bottom: 3.2rem;
+				padding: 0 3.2rem;
+			}
+
+			> .content {
+				> .columns {
+					padding: 2.4rem 1.6rem 0;
+					&:first-child {
+						border-bottom: $gray96 solid 2px;
+					}
+					@media #{$medium-up} {
+						padding: 3.2rem 3.2rem 0;
+					 	&:first-child {
+							border-right: $gray96 solid 2px;
+							border-bottom: 0;
+						}
+					}
+				}
+			}
+		}
+	}
+}

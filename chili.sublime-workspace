@@ -1,0 +1,1293 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font-w",
+				"font-weight-bold"
+			],
+			[
+				"mar",
+				"margin-bottom: "
+			],
+			[
+				"back",
+				"background-image: "
+			],
+			[
+				"anima",
+				"animation: "
+			],
+			[
+				"background",
+				"background-color: "
+			],
+			[
+				"section",
+				"section-wrapper"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"Stor",
+				"StoryContent"
+			],
+			[
+				"Story",
+				"StoryImg"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"scr",
+				"scrolledY"
+			],
+			[
+				"Info",
+				"InfoBoxAnimation"
+			],
+			[
+				"padd",
+				"padding-bottom: "
+			],
+			[
+				"foot",
+				"footer	Tag"
+			],
+			[
+				"marg",
+				"margin: "
+			],
+			[
+				"margi",
+				"margin: "
+			],
+			[
+				"max",
+				"max-width: "
+			],
+			[
+				"se",
+				"section	Tag"
+			],
+			[
+				"eac",
+				"each	.each()"
+			],
+			[
+				"fun",
+				"fun	Function"
+			],
+			[
+				"gallery",
+				"gallery-section"
+			],
+			[
+				"Gall",
+				"GalleryMainSlick"
+			],
+			[
+				"backgr",
+				"background-color: "
+			],
+			[
+				"Galler",
+				"GalleryMainSlick"
+			],
+			[
+				"zi",
+				"z-index: "
+			],
+			[
+				"font-",
+				"font-weight-normal"
+			],
+			[
+				"font-wei",
+				"font-weight-bold"
+			],
+			[
+				"trans",
+				"transform: "
+			],
+			[
+				"pad",
+				"padding: "
+			],
+			[
+				"text",
+				"text-align: "
+			],
+			[
+				"Menu",
+				"MenuSlick"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"font",
+				"font-weight-semi-bold"
+			],
+			[
+				"border-lef",
+				"border-left-style: "
+			],
+			[
+				"Inf",
+				"InfoBox"
+			],
+			[
+				"InF",
+				"InfoBox"
+			],
+			[
+				"In",
+				"InfoBoxAnimation"
+			],
+			[
+				"set",
+				"setCounter"
+			],
+			[
+				"attr",
+				"attr	.attr() - single"
+			],
+			[
+				"conte",
+				"content_id"
+			],
+			[
+				"clear",
+				"clearInterval"
+			],
+			[
+				"paren",
+				"parent	.parent()"
+			],
+			[
+				"vi",
+				"visibility"
+			],
+			[
+				"margin",
+				"margin-bottom: "
+			],
+			[
+				"off",
+				"offset	.offset()"
+			],
+			[
+				"css",
+				"css	.css() - single"
+			],
+			[
+				"add",
+				"addClass	.addClass()"
+			],
+			[
+				"c",
+				"color: "
+			],
+			[
+				"te",
+				"text-align: "
+			],
+			[
+				"ex",
+				"exportPanel"
+			],
+			[
+				"event",
+				"event-slick"
+			],
+			[
+				"att",
+				"attr	.attr() - single"
+			],
+			[
+				"panel",
+				"panel_main_button"
+			],
+			[
+				"selec",
+				"selected"
+			],
+			[
+				"remove",
+				"removeClass	.removeClass()"
+			],
+			[
+				"has",
+				"hasClass	.hasClass()"
+			],
+			[
+				"parent",
+				"parentsUntil	.parentsUntil()"
+			],
+			[
+				"togg",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"panel-height",
+				"panel-height-expand"
+			],
+			[
+				"pan",
+				"panel-height"
+			],
+			[
+				"li",
+				"li-margin-bottom"
+			],
+			[
+				"margin-",
+				"margin-right: "
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"outer",
+				"outerHeight	.outerHeight()"
+			],
+			[
+				"sc",
+				"scrollArea"
+			],
+			[
+				"main",
+				"main-button-height"
+			],
+			[
+				"mai",
+				"main-button-width"
+			],
+			[
+				"backg",
+				"background-image: "
+			],
+			[
+				"border-bot",
+				"border-bottom-color: "
+			],
+			[
+				"border",
+				"border-radius: "
+			],
+			[
+				"border-",
+				"border-right: "
+			],
+			[
+				"sub",
+				"sub-nav-height"
+			],
+			[
+				"pa",
+				"padding-top: "
+			],
+			[
+				"map",
+				"map-small-size"
+			],
+			[
+				"init",
+				"inherit"
+			],
+			[
+				"le",
+				"letter-spacing: "
+			],
+			[
+				"fade",
+				"fade-out	Sass-function"
+			],
+			[
+				"info-",
+				"info-panel-height-medium"
+			],
+			[
+				"tog",
+				"toggleClass	.toggleClass()"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"content",
+				"content: "
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"bkaa",
+				"background-image"
+			],
+			[
+				"i",
+				"id	Attr"
+			],
+			[
+				"pull",
+				"pull-right"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"panel-",
+				"panel-footer"
+			],
+			[
+				"list-grou",
+				"list-group-item"
+			],
+			[
+				"paddin",
+				"padding-right"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "scss/app.scss",
+			"settings":
+			{
+				"buffer_size": 218,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "kit/_body-guide.kit",
+			"settings":
+			{
+				"buffer_size": 635,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 400.0,
+		"selected_items":
+		[
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"insp",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: ",
+				"Snippet: ZURB Foundation Full Grid"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 420.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/dvkndn/Desktop/Maintenance/Tomago/14.09.18/Tomago.html",
+		"/Users/dvkndn/Desktop/Chili/code/scss/section/_home.scss",
+		"/Users/dvkndn/Desktop/Chili/code/kit/section/_dashboard.kit",
+		"/Users/dvkndn/Desktop/Chili/code/kit/section/_home.kit",
+		"/Users/dvkndn/Desktop/Chili/code/scss/section/_story.scss",
+		"/Users/dvkndn/Desktop/Chili/code/scss/components/_info-list.scss",
+		"/Users/dvkndn/Desktop/Chili/code/kit/_head.kit",
+		"/Users/dvkndn/Desktop/Chili/code/scss/_settings.scss",
+		"/Users/dvkndn/Desktop/Chili/code/scss/components/_icon.scss",
+		"/Users/dvkndn/Desktop/Chili/code/scss/components/_media.scss",
+		"/Users/dvkndn/Desktop/Chili/code/scss/components/_typography.scss",
+		"/Users/dvkndn/Desktop/Chili/code/scss/components/_section.scss",
+		"/Users/dvkndn/Desktop/Chili/code/kit/head/_head_og.kit",
+		"/Users/dvkndn/Desktop/Chili/code/kit/head/_head_icon.kit",
+		"/Users/dvkndn/Desktop/Chili/code/scss/section/_dashboard.scss",
+		"/Users/dvkndn/Desktop/Chili/code/kit/item/_mission-item-panel.kit",
+		"/Users/dvkndn/Desktop/Chili/code/scss/app.scss",
+		"/Users/dvkndn/Desktop/Chili/code/res.kit",
+		"/Users/dvkndn/Desktop/Chili/code/index.kit",
+		"/Users/dvkndn/Desktop/Chili/code/kit/section/_eam_event.kit",
+		"/Users/dvkndn/Desktop/Chili/code/kit/section/_eam_mission.kit",
+		"/Users/dvkndn/Desktop/Chili/code/kit/section/_mag_menu.kit",
+		"/Users/dvkndn/Desktop/Chili/code/kit/section/home/_main.kit",
+		"/Users/dvkndn/Desktop/Chili/code/scss/_story.scss",
+		"/Users/dvkndn/Desktop/Chili/code/js/dependencies/foundation.min.js",
+		"/Users/dvkndn/Desktop/Chili/code/js/dependencies/fastclick.min.js",
+		"/Users/dvkndn/Desktop/Chili/code/js/components/parallax.min.js",
+		"/Users/dvkndn/Desktop/Chili/code/js/components/map.min.js",
+		"/Users/dvkndn/Desktop/Chili/code/js/components/info-box.js",
+		"/Users/dvkndn/Desktop/Chili/code/js/base.min.js",
+		"/Users/dvkndn/Desktop/Chili/code/js/app.min.js",
+		"/Users/dvkndn/Desktop/Chili/code/js/components/parallax.js",
+		"/Users/dvkndn/Desktop/Chili/code/js/components/panel.js",
+		"/Users/dvkndn/Desktop/Chili/code/js/components/map.js",
+		"/Users/dvkndn/Desktop/Chili/code/js/base.js",
+		"/Users/dvkndn/Desktop/Chili/code/js/app.js",
+		"/Users/dvkndn/Desktop/Chili/code/js/dependencies/slick.min.js",
+		"/Users/dvkndn/Desktop/Chili/code/js/components/slick.js",
+		"/Users/dvkndn/Desktop/Chili/code/js/dependencies/jquery.min.js",
+		"/Users/dvkndn/Desktop/Chili/code/kit/section/res/_eam.kit",
+		"/Users/dvkndn/Desktop/Chili/code/kit/section/res/_mag.kit",
+		"/Users/dvkndn/Desktop/Chili/code/scss/_mag.scss",
+		"/Users/dvkndn/Desktop/Chili/code/kit/_foot.kit",
+		"/Users/dvkndn/Desktop/Chili/code/kit/section/res/_eam_deal.kit",
+		"/Users/dvkndn/Desktop/Chili/code/kit/item/_deal-item-panel-2.kit",
+		"/Users/dvkndn/Desktop/Chili/code/kit/item/_deal-item-panel.kit",
+		"/Users/dvkndn/Desktop/Chili/code/scss/components/_panel.scss",
+		"/Users/dvkndn/Desktop/Chili/code/scss/components/_action-bar.scss",
+		"/Users/dvkndn/Desktop/Chili/code/kit/_body-guide.kit",
+		"/Users/dvkndn/Desktop/Chili/code/scss/base.scss",
+		"/Users/dvkndn/Desktop/Chili/code/chili.sublime-project",
+		"/Users/dvkndn/Desktop/Chili/code/index.html",
+		"/Users/dvkndn/Desktop/Chili/code/kit/section/res/_story.kit",
+		"/Users/dvkndn/Desktop/Chili/code/kit/section/res/_home.kit",
+		"/Users/dvkndn/Desktop/Chili/code/kit/item/_menu-item-cover.kit",
+		"/Users/dvkndn/Desktop/Chili/code/scss/_global.scss",
+		"/Users/dvkndn/Desktop/Chili/code/kit/section/res/_mag_menu.kit",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/modernizr/test/caniuse_files/style.css",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/modernizr/feature-detects/css-scrollbars.js",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/font-awesome/less/core.less",
+		"/Users/dvkndn/Desktop/Chili/code/kit/section/res/_mag_gallery.kit",
+		"/Users/dvkndn/Desktop/Chili/code/scss/_mag_menu.scss",
+		"/Users/dvkndn/Desktop/Chili/code/scss/_home.scss",
+		"/Users/dvkndn/Desktop/Chili/code/kit/section/res/_eam_mission.kit",
+		"/Users/dvkndn/Desktop/Chili/code/kit/section/res/_eam_event.kit",
+		"/Users/dvkndn/Desktop/Chili/code/kit/item/_menu-item-page.kit",
+		"/Users/dvkndn/Desktop/Chili/code/kit/item/_menu-item-cover-2.kit",
+		"/Users/dvkndn/Desktop/Chili/code/kit/item/_menu-item-page-2.kit",
+		"/Users/dvkndn/Desktop/Chili/code/kit/item/_menu-item-page-3.kit",
+		"/Users/dvkndn/Desktop/Chili/code/kit/_footer.kit",
+		"/Users/dvkndn/Desktop/Chili/code/kit/data/_mcomics.kit",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/jquery/src/ajax/parseJSON.js",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/jquery/src/ajax/parseXML.js",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/jquery/src/core/parseHTML.js",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/modernizr/test/js/lib/uaparser.js",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/foundation/scss/foundation/components/_progress-bars.scss",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/modernizr/feature-detects/pointerlock-api.js",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/jquery/src/var/arr.js",
+		"/Users/dvkndn/Desktop/Chili/code/js/map.js",
+		"/Users/dvkndn/Desktop/Chili/code/js/info-box.js",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/font-awesome/less/bordered-pulled.less",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/foundation/scss/foundation/_functions.scss",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/modernizr/feature-detects/fullscreen-api.js",
+		"/Users/dvkndn/Desktop/Chili/code/js/parallax.js",
+		"/Users/dvkndn/Desktop/Chili/code/kit/item/_event-item-panel.kit",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/modernizr/feature-detects/gamepad.js",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/jquery/src/css.js",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/jquery/src/ajax/script.js",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/foundation/scss/foundation/components/_split-buttons.scss",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/modernizr/feature-detects/css-regions.js",
+		"/Users/dvkndn/Desktop/Chili/code/kit/item/_event-item-panel-2.kit",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/modernizr/feature-detects/json.js",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/jquery/dist/jquery.js",
+		"/Users/dvkndn/Desktop/Chili/code/scss/_eam.scss",
+		"/Users/dvkndn/Library/Application Support/Sublime Text 3/Packages/User/ab2.sublime-snippet",
+		"/Users/dvkndn/Desktop/Chili/code/kit/_data.kit",
+		"/Users/dvkndn/Library/Application Support/Sublime Text 3/Packages/User/ab.sublime-snippet",
+		"/Users/dvkndn/Desktop/Chili/code/kit/head/_head_share.kit",
+		"/Users/dvkndn/Desktop/Chili/code/js/slick.js",
+		"/Users/dvkndn/Desktop/Chili/code/js/min/slick-min.js",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/modernizr/feature-detects/workers-sharedworkers.js",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/modernizr/feature-detects/css-shapes.js",
+		"/Users/dvkndn/Desktop/Chili/code/js/min/menu-min.js",
+		"/Users/dvkndn/Desktop/Chili/code/scss/components/_pill.scss",
+		"/Users/dvkndn/Desktop/Chili/code/scss/_footer.scss",
+		"/Users/dvkndn/Desktop/Chili/code/js/min/info-box-min.js",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/foundation/scss/foundation/components/_labels.scss",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/font-awesome/less/larger.less",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/fastclick/LICENSE",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/foundation/js/foundation/foundation.interchange.js",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/jquery/src/var/strundefined.js",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/jquery/src/var/hasOwn.js",
+		"/Users/dvkndn/Desktop/Chili/code/scss/components/_info-box.scss",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/font-awesome/less/stacked.less",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/font-awesome/less/spinning.less",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/modernizr/feature-detects/css-backgroundposition-shorthand.js",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/foundation/scss/foundation/components/_range-slider.scss",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/modernizr/feature-detects/css-resize.js",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/modernizr/feature-detects/requestanimationframe.js",
+		"/Users/dvkndn/Desktop/Chili/code/scss/components/_tab.scss",
+		"/Users/dvkndn/Desktop/Chili/code/js/menu.js",
+		"/Users/dvkndn/Desktop/Chili/code/kit/section/res/_menu-item-page.kit",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/foundation/scss/foundation/components/_tables.scss",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/foundation/scss/foundation/components/_tabs.scss",
+		"/Users/dvkndn/Desktop/Chili/code/scss/components/_res-menu.scss",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/modernizr/feature-detects/network-eventsource.js",
+		"/Users/dvkndn/Desktop/Chili/code/bower_components/modernizr/feature-detects/quota-management-api.js",
+		"/Users/dvkndn/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 94.0,
+		"where_history":
+		[
+			"",
+			"*.kit",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"marker.png",
+			"alt",
+			"g\"/>",
+			"<img",
+			"img",
+			"img/",
+			"#",
+			"shadow",
+			"z-inde",
+			"),",
+			"\\((\\d+)",
+			"\\(\\d",
+			"</p>\\n</li>",
+			"</h6>\\n<p class=\"description\">",
+			", ",
+			"\\n<h6 class=\"title\">",
+			"<li>(\\n)<h6 class=\"price\">(\\w+)</h6>",
+			"<li>\\n<h6 class=\"price\">(\\w+)</h6>",
+			"<li>\\n<h6 class=\"price\">\\w+</h6>",
+			"k</h6>",
+			"thumbs",
+			"main",
+			"side bar",
+			"side",
+			"icon",
+			"hover",
+			"target",
+			"Interva",
+			"setTime",
+			"fastc",
+			"700",
+			"600",
+			"200",
+			"300",
+			"sem",
+			"CONTENT",
+			"Helveti",
+			"font-family",
+			"label",
+			"font-weight-normal",
+			"label",
+			"// $label-padding",
+			"$label-padding",
+			"$label-padding:",
+			"rem-calc\\((.+)\\)",
+			"rem-calc\\((\\d+)\\)",
+			"rem\\n",
+			"rem-calc\\((\\d+)\\);",
+			"rem-calc(",
+			"rem-calc(.*)",
+			"rem-calc(.*?)",
+			"rem-calc(.*)",
+			"colum",
+			"column",
+			"600",
+			"color",
+			"transition",
+			"ME",
+			"40x40",
+			"bạn"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"src=\"img/blank.gif\" alt",
+			"g\" alt=\"gallery picture\"/>",
+			"<!-- $res-path -->",
+			"],",
+			"[$1",
+			"\"",
+			"\", \"",
+			", \"",
+			", ",
+			"$2",
+			"$(2)",
+			"(1)",
+			"$1",
+			"$(1)",
+			"</h6>",
+			"thumb",
+			"thumbs",
+			"$font-weight-bold",
+			"$font-weight-semi-bold",
+			"$font-weight-extra-light",
+			"$font-weight-light",
+			"$1rem",
+			"$1",
+			"rem;\\n",
+			"rem;",
+			"$1rem",
+			"($1)rem",
+			"($1)/2",
+			"$1",
+			"",
+			"${1}",
+			"${2}",
+			"${1}",
+			"${1}rem",
+			"32x32",
+			"pạn"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "scss/app.scss",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 218,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Syntax Highlighting for Sass/Syntaxes/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "kit/_body-guide.kit",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 635,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 32.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "chili.sublime-project",
+	"replace":
+	{
+		"height": 68.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"dash",
+				"kit/section/_dashboard.kit"
+			],
+			[
+				"home",
+				"kit/section/_home.kit"
+			],
+			[
+				"sett",
+				"scss/_settings.scss"
+			],
+			[
+				"ho",
+				"scss/section/_home.scss"
+			],
+			[
+				"medi",
+				"scss/components/_media.scss"
+			],
+			[
+				"media",
+				"scss/components/_media.scss"
+			],
+			[
+				"inde",
+				"index.kit"
+			],
+			[
+				"home.",
+				"scss/section/_home.scss"
+			],
+			[
+				"slick",
+				"js/components/slick.js"
+			],
+			[
+				"eamkit",
+				"kit/section/res/_eam.kit"
+			],
+			[
+				"magkit",
+				"kit/section/res/_mag.kit"
+			],
+			[
+				"foot",
+				"kit/_foot.kit"
+			],
+			[
+				"head",
+				"kit/_head.kit"
+			],
+			[
+				"pane",
+				"scss/components/_panel.scss"
+			],
+			[
+				"foo",
+				"kit/_foot.kit"
+			],
+			[
+				"app",
+				"js/app.js"
+			],
+			[
+				"story",
+				"kit/section/res/_story.kit"
+			],
+			[
+				"glob",
+				"scss/_global.scss"
+			],
+			[
+				"base",
+				"scss/base.scss"
+			],
+			[
+				"mag",
+				"scss/_mag.scss"
+			],
+			[
+				"globa",
+				"scss/_global.scss"
+			],
+			[
+				"hoem",
+				"kit/section/res/_home.kit"
+			],
+			[
+				"eam",
+				"kit/section/res/_eam.kit"
+			],
+			[
+				"galler",
+				"kit/section/res/_mag_gallery.kit"
+			],
+			[
+				"eam_mi",
+				"kit/section/res/_eam_mission.kit"
+			],
+			[
+				"eam_eve",
+				"kit/section/res/_eam_event.kit"
+			],
+			[
+				"menu",
+				"kit/item/_menu-item-cover.kit"
+			],
+			[
+				"par",
+				"js/components/parallax.js"
+			],
+			[
+				"map",
+				"js/map.js"
+			],
+			[
+				"info",
+				"js/info-box.js"
+			],
+			[
+				"body",
+				"kit/_body-guide.kit"
+			],
+			[
+				"guide",
+				"kit/_body-guide.kit"
+			],
+			[
+				"functio",
+				"bower_components/foundation/scss/foundation/_functions.scss"
+			],
+			[
+				"setting",
+				"scss/_settings.scss"
+			],
+			[
+				"gallery",
+				"kit/section/res/_mag_gallery.kit"
+			],
+			[
+				"parr",
+				"bower_components/jquery/src/var/arr.js"
+			],
+			[
+				"sect",
+				"scss/components/_section.scss"
+			],
+			[
+				"pa",
+				"js/parallax.js"
+			],
+			[
+				"event",
+				"kit/section/res/_eam_event.kit"
+			],
+			[
+				"eventkit",
+				"kit/item/_event-item-panel.kit"
+			],
+			[
+				"panel",
+				"scss/components/_panel.scss"
+			],
+			[
+				"miss",
+				"kit/item/_mission-item-panel.kit"
+			],
+			[
+				"",
+				"kit/_head.kit"
+			],
+			[
+				"head_og",
+				"kit/head/_head_og.kit"
+			],
+			[
+				"head_",
+				"kit/head/_head_share.kit"
+			],
+			[
+				"_head",
+				"kit/_head.kit"
+			],
+			[
+				"share",
+				"kit/head/_head_share.kit"
+			],
+			[
+				"magkt",
+				"kit/section/res/_mag.kit"
+			],
+			[
+				"eam_mis",
+				"kit/section/res/_eam_mission.kit"
+			],
+			[
+				"pill",
+				"scss/components/_pill.scss"
+			],
+			[
+				"labe",
+				"bower_components/foundation/scss/foundation/components/_labels.scss"
+			],
+			[
+				"stor",
+				"scss/_story.scss"
+			],
+			[
+				"hom",
+				"kit/section/res/_home.kit"
+			],
+			[
+				"sot",
+				"scss/_story.scss"
+			],
+			[
+				"menuscs",
+				"scss/_mag_menu.scss"
+			],
+			[
+				"infocs",
+				"scss/components/_info-box.scss"
+			],
+			[
+				"head_sh",
+				"kit/head/_head_share.kit"
+			],
+			[
+				"sec",
+				"scss/components/_section.scss"
+			],
+			[
+				"glo",
+				"scss/_global.scss"
+			],
+			[
+				"ind",
+				"index.kit"
+			],
+			[
+				"gallerkit",
+				"kit/section/res/_mag_gallery.kit"
+			],
+			[
+				"homek",
+				"kit/section/res/_home.kit"
+			],
+			[
+				"sectio",
+				"scss/components/_section.scss"
+			],
+			[
+				"menukit",
+				"kit/section/res/_mag_menu.kit"
+			],
+			[
+				"menuscss",
+				"scss/_mag_menu.scss"
+			],
+			[
+				"section",
+				"scss/components/_section.scss"
+			],
+			[
+				"menuki",
+				"kit/section/res/_mag_menu.kit"
+			],
+			[
+				"slik",
+				"js/slick.js"
+			],
+			[
+				"sli",
+				"js/slick.js"
+			],
+			[
+				"mag_me",
+				"kit/section/res/_mag_menu.kit"
+			],
+			[
+				"tab",
+				"scss/components/_tab.scss"
+			],
+			[
+				"mission",
+				"kit/section/res/_eam_mission.kit"
+			],
+			[
+				"g",
+				"scss/_global.scss"
+			],
+			[
+				"eam_e",
+				"kit/section/res/_eam_event.kit"
+			],
+			[
+				"infobo",
+				"scss/components/_info-box.scss"
+			],
+			[
+				"mis",
+				"kit/item/_mission-item-panel.kit"
+			],
+			[
+				"item",
+				"kit/item/_event-item-panel.kit"
+			],
+			[
+				"inbox",
+				"js/info-box.js"
+			],
+			[
+				"pan",
+				"scss/components/_panel.scss"
+			],
+			[
+				"ac",
+				"scss/components/_action-bar.scss"
+			],
+			[
+				"pen",
+				"js/panel.js"
+			],
+			[
+				"even",
+				"kit/item/_event-item-panel.kit"
+			],
+			[
+				"ite",
+				"kit/item/_event-item-panel.kit"
+			],
+			[
+				"p",
+				"scss/components/_panel.scss"
+			],
+			[
+				"s",
+				"slick/slick.scss"
+			],
+			[
+				"app.js",
+				"js/app.js"
+			],
+			[
+				"action",
+				"scss/components/_action-bar.scss"
+			],
+			[
+				"h",
+				"kit/_head.kit"
+			],
+			[
+				"set",
+				"scss/_settings.scss"
+			],
+			[
+				"bod",
+				"kit/_body-home.kit"
+			],
+			[
+				"gol",
+				"scss/_global.scss"
+			],
+			[
+				"go",
+				"scss/_global.scss"
+			],
+			[
+				"fo",
+				"kit/_foot.kit"
+			],
+			[
+				"hea",
+				"kit/_head.kit"
+			],
+			[
+				"style",
+				"public/stylesheets/style.styl"
+			],
+			[
+				"projec",
+				"views/dashboard/project.jade"
+			],
+			[
+				"proje",
+				"views/dashboard/project.jade"
+			],
+			[
+				"detail",
+				"public/stylesheets/detail.styl"
+			],
+			[
+				"st",
+				"public/stylesheets/style.styl"
+			],
+			[
+				"style.",
+				"public/stylesheets/style.styl"
+			],
+			[
+				"project-de",
+				"views/dashboard/project-detail.jade"
+			],
+			[
+				"sty",
+				"public/stylesheets/style.styl"
+			],
+			[
+				"proj",
+				"views/dashboard/project-detail.jade"
+			],
+			[
+				"detai",
+				"public/stylesheets/detail.styl"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

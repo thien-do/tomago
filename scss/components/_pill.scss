@@ -1,0 +1,63 @@
+// a pill (for things such as tags, label, sub-nav...)
+.pill {
+	display: inline-block;
+
+	font-size: 1.1rem;
+	font-weight: $font-weight-semi-bold;
+	letter-spacing: 1px;
+	line-height: 2.4rem;
+	text-transform: uppercase;
+	color: $gray7;
+
+	border-radius: 4px;
+	padding: 0 1.1rem;
+
+	transition: all 0.2s;
+
+	&:hover {
+		background-color: $gray94;
+	}
+}
+// sub-nav
+.sub-nav {
+	height: 2.4rem;
+	margin: auto; padding: 0;
+
+	dd:not(#normal) {
+		margin-left: 0.8rem;
+		margin-bottom: 0;
+
+		> a { @extend .pill }
+
+		&.active > a {
+			background-color: $primary-color;
+			color: white;
+		}
+	}
+}
+// pagination
+ul.pagination {
+	> li {
+		> a {
+			@extend .pill;
+		}
+	}
+}
+// label
+.label {
+	@extend .pill;
+
+	line-height: 2.2rem;
+
+	background-color: $gray96;
+	border: solid $gray96 1px;
+	font-weight: $font-weight-semi-bold;
+
+	cursor: arrow;
+
+	&:hover, &:active {
+		background-color: $primary-color;
+		border-color: $primary-color;
+		color: white;
+	}
+}

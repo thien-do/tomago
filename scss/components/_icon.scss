@@ -1,0 +1,99 @@
+// icon
+.icon {
+	@extend div.image;
+	@each $size in 24, 32, 40, 48, 64 {
+		&.icon-#{$size} {
+			width: #{$size/10}rem;
+			height: #{$size/10}rem;
+		}
+	}
+}
+// care icon
+.icon.care-icon {
+	position: relative;
+	display: inline-block;
+	letter-spacing: 0;
+	vertical-align: middle;
+
+	@media #{$small-only} {
+		top: -0.4rem;
+
+		$icon-size: 3.8rem;
+		width: $icon-size; height: $icon-size;
+
+		line-height: $icon-size;
+		font-size: 1.3rem;
+	}
+
+	@media #{$medium-up} {
+		top: -0.6rem;
+
+		$icon-size: 4.6rem;
+		width: $icon-size; height: $icon-size;
+
+		line-height: $icon-size - 0.1;
+		font-size: 1.4rem;
+	}
+}
+.icon-bar {
+	background-color: fade-out(white, 0);
+	.item {
+		border-left: $gray96 solid 2px;
+		padding-left: 0; padding-right: 0;
+
+		@media #{$small-only} {
+			height: 7.2rem;
+			&:first-child { border-left-color: transparent }
+			padding-top: 1.6rem;
+		}
+
+		@media #{$medium-up} {
+			height: $info-panel-height-medium;
+			&:last-child  { border-right: $gray96 solid 2px }
+		}
+
+		&:hover { background-color: $gray96 }
+		transition: background-color 0.2s;
+
+		// stat
+		h1 {
+			position: relative;
+
+			font-size: 7.2rem;
+			font-weight: $font-weight-extra-light;
+			color: $gray8;
+			line-height: 1;
+
+			margin-top: 0.6rem;
+			margin-bottom: 7.0rem;
+
+			&:after {
+				content: url('../img/smallicons/sep.svg');
+
+				position: absolute;
+				top: 5.2rem;
+				left: 0; right: 0;
+
+				margin: auto;
+			}
+
+			@media #{$small-only} {
+				display: none;
+			}
+		}
+
+		// title
+		label {
+			font-size: 1.0rem;
+			font-weight: $font-weight-bold;
+			text-transform: uppercase;
+			color: $gray8;
+			margin-top: 0.5rem;
+
+			@media #{$medium-up} {
+				font-size: 1.3rem;
+				margin-top: 1.2rem;
+			}
+		}
+	}
+}
