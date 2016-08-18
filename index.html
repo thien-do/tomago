@@ -1,819 +1,811 @@
 <!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
 
-<!-- =================================== -->
+    <title>Mcomics trên Tomago</title>
+    <meta name="description" content="Vẫn mang phong cách manga và lối kiến trúc cũ - 1 trệt và 1 gác gỗ - như người anh bên Võ Thị Sáu nhưng Mcomics Trần Hưng Đạo có phần nổi trội hơn với các đường nét mang phong cách l'amour - hoa văn.">
 
+    <!-- Tomago icon for favicon -->
+    <link rel="icon" href="img/icon/favicon.png" type="image/png" />
+    <link rel="shortcut icon" href="img/icon/favicon.ico" />
 
-<!-- =================================== -->
+    <!-- Hopefully fullscreen -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Mcomics trên Tomago">
 
+    <!-- Res icon for app on homescreen-->
+    <link rel="icon" href="data/res/mcomics/icon/default.png">
+    <link rel="apple-touch-icon-precomposed" href="data/res/mcomics/icon/default.png">
 
+    <meta name="msapplication-TileImage" content="data/res/mcomics/icon/square.jpg">
+    <meta name="msapplication-TileColor" content="#FFFFFF"><!-- Open Graph -->
 
+    <meta property="og:title" content="Mcomics trên Tomago">
+    <meta property="og:description" content="Vẫn mang phong cách manga và lối kiến trúc cũ - 1 trệt và 1 gác gỗ - như người anh bên Võ Thị Sáu nhưng Mcomics Trần Hưng Đạo có phần nổi trội hơn với các đường nét mang phong cách l'amour - hoa văn.">
+    <meta property="og:url" content="index.html">
 
-<!-- =================================== --><html class="no-js" lang="en">
-	<head>
-		<meta charset="utf-8" />
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+    <meta property="og:site_name" content="Tomago">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="vi_VN">
 
-<title>Mcomics trên Tomago</title>
-<meta name="description" content="Vẫn mang phong cách manga và lối kiến trúc cũ - 1 trệt và 1 gác gỗ - như người anh bên Võ Thị Sáu nhưng Mcomics Trần Hưng Đạo có phần nổi trội hơn với các đường nét mang phong cách l'amour - hoa văn.">
+    <meta property="og:image" content="data/res/mcomics/og.jpg"/>
+    <meta property="og:image" content="data/res/mcomics/og2.jpg"/>
+    <meta property="og:image:url" content="data/res/mcomics/og.jpg"/>
+    <meta property="og:image:url" content="data/res/mcomics/og2.jpg"/>
+    <meta property="og:image:secure_url" content="https://dl.dropboxusercontent.com/u/12871355/chili/code/data/res/mcomics/og.jpg"/>
+    <meta property="og:image:secure_url" content="https://dl.dropboxusercontent.com/u/12871355/chili/code/data/res/mcomics/og2.jpg"/>
+    <!-- dependencies -->
+    <!-- <script src="js/dependencies/modernizr-min.js"></script> -->
+    <link rel="stylesheet" href="css/base.css" />
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700,900&subset=vietnamese,latin,latin-ext' rel='stylesheet' type='text/css'>
 
-<!-- Tomago icon for favicon -->
-<link rel="icon" href="http://dl.dropboxusercontent.com/u/12871355/chili/code/img/icon/favicon.png" type="image/png" />
-<link rel="shortcut icon" href="http://dl.dropboxusercontent.com/u/12871355/chili/code/img/icon/favicon.ico" />
-
-<!-- Hopefully fullscreen -->
-<meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="black">
-<meta name="apple-mobile-web-app-title" content="Mcomics trên Tomago">
-
-<!-- Res icon for app on homescreen-->
-<link rel="icon" href="http://dl.dropboxusercontent.com/u/12871355/chili/code/data/res/mcomics/icon/default.png">
-<link rel="apple-touch-icon-precomposed" href="http://dl.dropboxusercontent.com/u/12871355/chili/code/data/res/mcomics/icon/default.png">
-
-<meta name="msapplication-TileImage" content="http://dl.dropboxusercontent.com/u/12871355/chili/code/data/res/mcomics/icon/square.jpg">
-<meta name="msapplication-TileColor" content="#FFFFFF"><!-- Open Graph -->
-
-<meta property="og:title" content="Mcomics trên Tomago">
-<meta property="og:description" content="Vẫn mang phong cách manga và lối kiến trúc cũ - 1 trệt và 1 gác gỗ - như người anh bên Võ Thị Sáu nhưng Mcomics Trần Hưng Đạo có phần nổi trội hơn với các đường nét mang phong cách l'amour - hoa văn.">
-<meta property="og:url" content="http://dl.dropboxusercontent.com/u/12871355/chili/code/index.html">
-
-<meta property="og:site_name" content="Tomago">
-<meta property="og:type" content="website">
-<meta property="og:locale" content="vi_VN">
-
-<meta property="og:image" content="http://dl.dropboxusercontent.com/u/12871355/chili/code/data/res/mcomics/og.jpg"/>
-<meta property="og:image" content="http://dl.dropboxusercontent.com/u/12871355/chili/code/data/res/mcomics/og2.jpg"/>
-<meta property="og:image:url" content="http://dl.dropboxusercontent.com/u/12871355/chili/code/data/res/mcomics/og.jpg"/>
-<meta property="og:image:url" content="http://dl.dropboxusercontent.com/u/12871355/chili/code/data/res/mcomics/og2.jpg"/>
-<meta property="og:image:secure_url" content="https://dl.dropboxusercontent.com/u/12871355/chili/code/data/res/mcomics/og.jpg"/>
-<meta property="og:image:secure_url" content="https://dl.dropboxusercontent.com/u/12871355/chili/code/data/res/mcomics/og2.jpg"/>
-<!-- dependencies -->
-<!-- <script src="js/dependencies/modernizr-min.js"></script> -->
-<link rel="stylesheet" href="css/base.css" />
-<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,400,600,700,900&subset=vietnamese,latin,latin-ext' rel='stylesheet' type='text/css'>
-
-<!-- my import -->
-<link rel="stylesheet" href="css/app.css" />	</head>
-	<body id="res-page">
-		<!-- GUIDE -->
-		<div class="guide-wrapper">
-			<div id="guide-rotate-phone" class="hide show-for-small-only show-for-portrait">
+    <!-- my import -->
+    <link rel="stylesheet" href="css/app.css" />
+  </head>
+  <body id="res-page">
+    <!-- GUIDE -->
+    <div class="guide-wrapper">
+      <div id="guide-rotate-phone" class="hide show-for-small-only show-for-portrait">
 </div>
 <div id="info-content-list">
-	<div id="info1" class="hide" data-delay="3">
-		<h4>Bạn đã quan tâm Mcomics!</h4>
-		<p>Bạn có thể tìm lại những quán đã quan tâm tại trang chủ.</p>
-	</div>
-	<div id="info2" class="hide no-pointer" data-delay="3">
-		<h4>Đã sao chép liên kết!</h4>
-		<p>Nhấn Ctrl + V để chia sẻ</p>
-	</div>
+  <div id="info1" class="hide" data-delay="3">
+    <h4>Bạn đã quan tâm Mcomics!</h4>
+    <p>Bạn có thể tìm lại những quán đã quan tâm tại trang chủ.</p>
+  </div>
+  <div id="info2" class="hide no-pointer" data-delay="3">
+    <h4>Đã sao chép liên kết!</h4>
+    <p>Nhấn Ctrl + V để chia sẻ</p>
+  </div>
 </div>
 
 <div id="info-object" class="info-box hidden">
-	<div class="info-content">
-		<h4>Đã sao chép liên kết!</h4>
-		<p>Nhấn Ctrl + V để chia sẻ</p>
-	</div>
-	<a href="#close"><span>3</span>s <i class="fa fa-times"></i></a>
-</div>		</div>
+  <div class="info-content">
+    <h4>Đã sao chép liên kết!</h4>
+    <p>Nhấn Ctrl + V để chia sẻ</p>
+  </div>
+  <a href="#close"><span>3</span>s <i class="fa fa-times"></i></a>
+</div>    </div>
 
-		<!-- CONTENT -->
-		<div class="section-wrapper">
-			<header></header>
-			<section id="res-home" class="home-section">
-	<div class="cover">
-		<div id="res-title" class="res-title float container text-center">
-			<h1>
-				<a class="white-line round toggle icon care-icon" data-info="info1" data-info-avoid="active">
-					<span class="fa fa-heart"></span>
-				</a>
-				Mcomics <wbr> cafe			</h1>
-			<h3 class="show-for-medium-up">Cà phê và truyện tranh</h3>
-		</div>
-		<div class="complex-background" style="overflow: hidden">
-			<div id="res-img" class="image">
-				<img src="data/res/mcomics/bg.jpg" alt="background">
-			</div>
-			<div class="overlay pattern"></div>
-		</div>
-	</div>
-	<div class="home-info container float row">
-		<div class="main-info small-12 medium-5 columns">
-			<div class="multiple-th">
-				<div class="image th"></div>
-				<div class="image th"></div>
-				<div class="image th main" style="background-image: url('data/res/mcomics/icon/square.jpg')"></div>
-			</div>
-			<ul class="fa-ul res-info-list">
-				<li>
-					<i class="fa-li fa fa-clock-o"></i>
-					mở cửa 7:00 sáng - 10:00 tối				</li>
-				<li>
-					<i class="fa-li fa fa-map-marker"></i>
-					1039 trần hưng đạo, Q.5				</li>
-				<li>
-					<i class="fa-li fa fa-phone"></i>
-					0937 699 805				</li>
-				<li>
-					<i class="fa-li fa fa-globe"></i>
-					chưa có				</li>
-			</ul>
-			<ul class="tag-list inline-list">
-				<li class="label">chỗ êm để ngồi</li>
-				<li class="label">yên tĩnh để tập trung</li>
-				<li class="label">khung cảnh để chụp hình</li>
-				<li class="label">món ngon để ăn</li>
-			</ul>
-		</div>
-		<div class="navigation small-12 medium-7 columns">
-			<div class="icon-bar four-up ">
-				<a class="item" href="#event-anc">
-					<h1>3</h1>
-					<img class="icon icon-24" src="img/smallicons/event.svg" alt="event icon">
-					<label>Sự kiện</label>
-				</a>
-				<a class="item" href="#mission-anc">
-					<h1>2</h1>
-					<img class="icon icon-24" src="img/smallicons/gift.svg" alt="mission icon">
-					<label>Khuyến mãi</label>
-				</a>
-				<a class="item" href="#res-mag">
-					<h1>7</h1>
-					<img class="icon icon-24" src="img/smallicons/photo.svg" alt="gallery icon">
-					<label>Hình ảnh</label>
-				</a>
-				<a class="item" href="#res-mag">
-					<h1>12</h1>
-					<img class="icon icon-24" src="img/smallicons/menu.svg" alt="menu icon">
-					<label>Thực đơn</label>
-				</a>
-			</div>
-		</div>
-	</div>
-</section>			<section id="res-eam">
-	<div class="complex-background">
-		<!-- Background (Map + Shadow) -->
-		<div id="map-canvas" class="google-map"></div>
-		<div class="shadow horizontal align-top"></div>
-		<div class="shadow horizontal align-bottom"></div>
-		<div class="shadow horizontal align-bottom show-for-small-only"></div>
-		<!-- True content -->
-		<div class="content-wrapper container float">
-			<div class="content section-shadow light-gray-background full-height row">
-				<div id="event-anc" class="small-12 medium-8 columns">
-					<section id="event-section">
-	<header class="section-header">
-		<img class="icon icon-32" src="img/smallicons/event.svg" alt="event icon">
-		<img class="title" src="img/text/event.png" alt="event title">
-		<dl class="sub-nav toggle-group">
-			<dd role="all" class="active"><a href="#">Tất cả</a></dd>
-			<dd role="coming"><a href="#">Sắp diễn ra</a></dd>
-		</dl>
-	</header>
+    <!-- CONTENT -->
+    <div class="section-wrapper">
+      <header></header>
+      <section id="res-home" class="home-section">
+  <div class="cover">
+    <div id="res-title" class="res-title float container text-center">
+      <h1>
+        <a class="white-line round toggle icon care-icon" data-info="info1" data-info-avoid="active">
+          <span class="fa fa-heart"></span>
+        </a>
+        Mcomics <wbr> cafe      </h1>
+      <h3 class="show-for-medium-up">Cà phê và truyện tranh</h3>
+    </div>
+    <div class="complex-background" style="overflow: hidden">
+      <div id="res-img" class="image">
+        <img src="data/res/mcomics/bg.jpg" alt="background">
+      </div>
+      <div class="overlay pattern"></div>
+    </div>
+  </div>
+  <div class="home-info container float row">
+    <div class="main-info small-12 medium-5 columns">
+      <div class="multiple-th">
+        <div class="image th"></div>
+        <div class="image th"></div>
+        <div class="image th main" style="background-image: url('data/res/mcomics/icon/square.jpg')"></div>
+      </div>
+      <ul class="fa-ul res-info-list">
+        <li>
+          <i class="fa-li fa fa-clock-o"></i>
+          mở cửa 7:00 sáng - 10:00 tối        </li>
+        <li>
+          <i class="fa-li fa fa-map-marker"></i>
+          1039 trần hưng đạo, Q.5       </li>
+        <li>
+          <i class="fa-li fa fa-phone"></i>
+          0937 699 805        </li>
+        <li>
+          <i class="fa-li fa fa-globe"></i>
+          chưa có       </li>
+      </ul>
+      <ul class="tag-list inline-list">
+        <li class="label">chỗ êm để ngồi</li>
+        <li class="label">yên tĩnh để tập trung</li>
+        <li class="label">khung cảnh để chụp hình</li>
+        <li class="label">món ngon để ăn</li>
+      </ul>
+    </div>
+    <div class="navigation small-12 medium-7 columns">
+      <div class="icon-bar four-up ">
+        <a class="item" href="#event-anc">
+          <h1>3</h1>
+          <img class="icon icon-24" src="img/smallicons/event.svg" alt="event icon">
+          <label>Sự kiện</label>
+        </a>
+        <a class="item" href="#mission-anc">
+          <h1>2</h1>
+          <img class="icon icon-24" src="img/smallicons/gift.svg" alt="mission icon">
+          <label>Khuyến mãi</label>
+        </a>
+        <a class="item" href="#res-mag">
+          <h1>7</h1>
+          <img class="icon icon-24" src="img/smallicons/photo.svg" alt="gallery icon">
+          <label>Hình ảnh</label>
+        </a>
+        <a class="item" href="#res-mag">
+          <h1>12</h1>
+          <img class="icon icon-24" src="img/smallicons/menu.svg" alt="menu icon">
+          <label>Thực đơn</label>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>      <section id="res-eam">
+  <div class="complex-background">
+    <!-- Background (Map + Shadow) -->
+    <div id="map-canvas" class="google-map"></div>
+    <div class="shadow horizontal align-top"></div>
+    <div class="shadow horizontal align-bottom"></div>
+    <div class="shadow horizontal align-bottom show-for-small-only"></div>
+    <!-- True content -->
+    <div class="content-wrapper container float">
+      <div class="content section-shadow light-gray-background full-height row">
+        <div id="event-anc" class="small-12 medium-8 columns">
+          <section id="event-section">
+  <header class="section-header">
+    <img class="icon icon-32" src="img/smallicons/event.svg" alt="event icon">
+    <img class="title" src="img/text/event.png" alt="event title">
+    <dl class="sub-nav toggle-group">
+      <dd role="all" class="active"><a href="#">Tất cả</a></dd>
+      <dd role="coming"><a href="#">Sắp diễn ra</a></dd>
+    </dl>
+  </header>
 
-	<div class="content-body row">
-		<div class="comming-event">
-			<div class="panel event-item-panel">
-	<div class="panel-content-wrapper">
-		<div class="panel-content">
-			<header class="panel-header complex-background">
-				<div class="image" style="background-image: url('data/res/mcomics/events/1.jpg')"></div>
-				<div class="image icon icon-64" style="background-image: url('data/res/mcomics/icon/square.jpg')"></div>
-			</header>
-			<div class="panel-body">
-				<h6 class="sub-title text-center">Mcomics sắp tổ chức</h6>
-				<div class="calendar-icon icon icon-40 complex-background right">
-					<div class="icon icon-40" style="background-image: url('img/smallicons/cal.svg')"></div>
-					<div class="content text-center">
-						<h6 class="month">thg 7</h6>
-						<h6 class="date">22</h6>
-					</div>
-				</div>
-				<h6 class="title"><a class="text-link" href="#">Tuần lễ &ldquo;Truyện tranh Việt Nam&rdquo;</a></h6>
-				<div class="description">
-					<p>Đây là ví dụ về sự kiện có mô tả dài. Mô tả sẽ được hiển thị đầy đủ sau khi ấn “Xem thêm”. Ví dụ này cũng thể hiện những định dạng được phép sử dụng trong mô tả, gồm có <strong>in đậm</strong> và <em>in nghiêng</em>.<br>Thay đổi màu sắc, cỡ chữ trong mô tả là không được phép.</p>
-					<hr>
-					<ul class="fa-ul">
-						<li>
-							<i class="fa-li fa fa-calendar-o"></i>
-							Từ 22 tháng 7 đến 29 tháng 7 / 2014
-						</li>
-						<li>
-							<i class="fa-li fa fa-map-marker"></i>
-							1039 Trần Hưng Đạo, Q.5
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<footer class="action-bar">
-		<div class="sub-button-wrapper row collapse">
-			<a href="#" class="sub-button small-6 columns">
-				<!-- <i class="fa fa-share-alt"></i>
-				<h6 class="icon-title">amc</h6> -->
-			</a>
-			<a href="#" class="sub-button small-6 columns" data-info="info2">
-				<i class="fa fa-share-alt"></i>
-				<h6 class="icon-title">chia sẻ</h6>
-			</a>
-		</div>
-		<div class="main-button-wrapper">
-			<a href="#" class="icon main-button" role="expand">
-				<i class="fa fa-chevron-up"></i>
-				<h6 class="icon-title">Xem thêm</h6>
-				<h6 class="icon-title alt">Thu gọn</h6>
-			</a>
-		</div>
-	</footer>
-</div>		</div>
-		<div>
-			<div class="panel event-item-panel">
-	<div class="panel-content-wrapper">
-		<div class="panel-content">
-			<header class="panel-header complex-background">
-				<div class="image" style="background-image: url('data/res/mcomics/events/3.jpg')"></div>
-				<div class="image icon icon-64" style="background-image: url('data/res/mcomics/icon/square.jpg')"></div>
-			</header>
-			<div class="panel-body">
-				<h6 class="sub-title text-center">Mcomics sắp tổ chức</h6>
-				<div class="calendar-icon icon icon-40 complex-background right">
-					<div class="icon icon-40" style="background-image: url('img/smallicons/cal.svg')"></div>
-					<div class="content text-center">
-						<h6 class="month">thg 8</h6>
-						<h6 class="date">19</h6>
-					</div>
-				</div>
-				<h6 class="title"><a class="text-link" href="#">Sự kiện chào đón sinh nhật quán!</a></h6>
-				<div class="description">
-					<p>Mô tả ngắn gọn về sự kiện này. Sự kiện có thể kéo dài từ vài giờ cho đến vài ngày. Ngày hiển thị chỉ là ngày bắt đầu...</p>
-					<hr>
-					<ul class="fa-ul">
-						<li>
-							<i class="fa-li fa fa-calendar-o"></i>
-							Từ 19 tháng 8 đến 29 tháng 8 / 2014
-						</li>
-						<li>
-							<i class="fa-li fa fa-map-marker"></i>
-							1039 Trần Hưng Đạo, Q.5
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<footer class="action-bar">
-		<div class="sub-button-wrapper row collapse">
-			<a href="#" class="sub-button small-6 columns">
-				<!-- <i class="fa fa-share-alt"></i>
-				<h6 class="icon-title">amc</h6> -->
-			</a>
-			<a href="#" class="sub-button small-6 columns" data-info="info2">
-				<i class="fa fa-share-alt"></i>
-				<h6 class="icon-title">chia sẻ</h6>
-			</a>
-		</div>
-		<div class="main-button-wrapper">
-			<a href="#" class="icon main-button" role="expand">
-				<i class="fa fa-chevron-up"></i>
-				<h6 class="icon-title">Xem thêm</h6>
-				<h6 class="icon-title alt">Thu gọn</h6>
-			</a>
-		</div>
-	</footer>
-</div>		</div>
-		<div>
-			<div class="panel event-item-panel">
-	<div class="panel-content-wrapper">
-		<div class="panel-content">
-			<header class="panel-header complex-background">
-				<div class="image" style="background-image: url('data/res/mcomics/events/3.jpg')"></div>
-				<div class="image icon icon-64" style="background-image: url('data/res/mcomics/icon/square.jpg')"></div>
-			</header>
-			<div class="panel-body">
-				<h6 class="sub-title text-center">Mcomics sắp tổ chức</h6>
-				<div class="calendar-icon icon icon-40 complex-background right">
-					<div class="icon icon-40" style="background-image: url('img/smallicons/cal.svg')"></div>
-					<div class="content text-center">
-						<h6 class="month">thg 8</h6>
-						<h6 class="date">19</h6>
-					</div>
-				</div>
-				<h6 class="title"><a class="text-link" href="#">Sự kiện chào đón sinh nhật quán!</a></h6>
-				<div class="description">
-					<p>Mô tả ngắn gọn về sự kiện này. Sự kiện có thể kéo dài từ vài giờ cho đến vài ngày. Ngày hiển thị chỉ là ngày bắt đầu...</p>
-					<hr>
-					<ul class="fa-ul">
-						<li>
-							<i class="fa-li fa fa-calendar-o"></i>
-							Từ 19 tháng 8 đến 29 tháng 8 / 2014
-						</li>
-						<li>
-							<i class="fa-li fa fa-map-marker"></i>
-							1039 Trần Hưng Đạo, Q.5
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<footer class="action-bar">
-		<div class="sub-button-wrapper row collapse">
-			<a href="#" class="sub-button small-6 columns">
-				<!-- <i class="fa fa-share-alt"></i>
-				<h6 class="icon-title">amc</h6> -->
-			</a>
-			<a href="#" class="sub-button small-6 columns" data-info="info2">
-				<i class="fa fa-share-alt"></i>
-				<h6 class="icon-title">chia sẻ</h6>
-			</a>
-		</div>
-		<div class="main-button-wrapper">
-			<a href="#" class="icon main-button" role="expand">
-				<i class="fa fa-chevron-up"></i>
-				<h6 class="icon-title">Xem thêm</h6>
-				<h6 class="icon-title alt">Thu gọn</h6>
-			</a>
-		</div>
-	</footer>
-</div>		</div>
-		<div>
-			<div class="panel event-item-panel">
-	<div class="panel-content-wrapper">
-		<div class="panel-content">
-			<header class="panel-header complex-background">
-				<div class="image" style="background-image: url('data/res/mcomics/events/3.jpg')"></div>
-				<div class="image icon icon-64" style="background-image: url('data/res/mcomics/icon/square.jpg')"></div>
-			</header>
-			<div class="panel-body">
-				<h6 class="sub-title text-center">Mcomics sắp tổ chức</h6>
-				<div class="calendar-icon icon icon-40 complex-background right">
-					<div class="icon icon-40" style="background-image: url('img/smallicons/cal.svg')"></div>
-					<div class="content text-center">
-						<h6 class="month">thg 8</h6>
-						<h6 class="date">19</h6>
-					</div>
-				</div>
-				<h6 class="title"><a class="text-link" href="#">Sự kiện chào đón sinh nhật quán!</a></h6>
-				<div class="description">
-					<p>Mô tả ngắn gọn về sự kiện này. Sự kiện có thể kéo dài từ vài giờ cho đến vài ngày. Ngày hiển thị chỉ là ngày bắt đầu...</p>
-					<hr>
-					<ul class="fa-ul">
-						<li>
-							<i class="fa-li fa fa-calendar-o"></i>
-							Từ 19 tháng 8 đến 29 tháng 8 / 2014
-						</li>
-						<li>
-							<i class="fa-li fa fa-map-marker"></i>
-							1039 Trần Hưng Đạo, Q.5
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	</div>
-	<footer class="action-bar">
-		<div class="sub-button-wrapper row collapse">
-			<a href="#" class="sub-button small-6 columns">
-				<!-- <i class="fa fa-share-alt"></i>
-				<h6 class="icon-title">amc</h6> -->
-			</a>
-			<a href="#" class="sub-button small-6 columns" data-info="info2">
-				<i class="fa fa-share-alt"></i>
-				<h6 class="icon-title">chia sẻ</h6>
-			</a>
-		</div>
-		<div class="main-button-wrapper">
-			<a href="#" class="icon main-button" role="expand">
-				<i class="fa fa-chevron-up"></i>
-				<h6 class="icon-title">Xem thêm</h6>
-				<h6 class="icon-title alt">Thu gọn</h6>
-			</a>
-		</div>
-	</footer>
-</div>		</div>
-	</div>
+  <div class="content-body row">
+    <div class="comming-event">
+      <div class="panel event-item-panel">
+  <div class="panel-content-wrapper">
+    <div class="panel-content">
+      <header class="panel-header complex-background">
+        <div class="image" style="background-image: url('data/res/mcomics/events/1.jpg')"></div>
+        <div class="image icon icon-64" style="background-image: url('data/res/mcomics/icon/square.jpg')"></div>
+      </header>
+      <div class="panel-body">
+        <h6 class="sub-title text-center">Mcomics sắp tổ chức</h6>
+        <div class="calendar-icon icon icon-40 complex-background right">
+          <div class="icon icon-40" style="background-image: url('img/smallicons/cal.svg')"></div>
+          <div class="content text-center">
+            <h6 class="month">thg 7</h6>
+            <h6 class="date">22</h6>
+          </div>
+        </div>
+        <h6 class="title"><a class="text-link" href="#">Tuần lễ &ldquo;Truyện tranh Việt Nam&rdquo;</a></h6>
+        <div class="description">
+          <p>Đây là ví dụ về sự kiện có mô tả dài. Mô tả sẽ được hiển thị đầy đủ sau khi ấn “Xem thêm”. Ví dụ này cũng thể hiện những định dạng được phép sử dụng trong mô tả, gồm có <strong>in đậm</strong> và <em>in nghiêng</em>.<br>Thay đổi màu sắc, cỡ chữ trong mô tả là không được phép.</p>
+          <hr>
+          <ul class="fa-ul">
+            <li>
+              <i class="fa-li fa fa-calendar-o"></i>
+              Từ 22 tháng 7 đến 29 tháng 7 / 2014
+            </li>
+            <li>
+              <i class="fa-li fa fa-map-marker"></i>
+              1039 Trần Hưng Đạo, Q.5
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="action-bar">
+    <div class="sub-button-wrapper row collapse">
+      <a href="#" class="sub-button small-6 columns">
+        <!-- <i class="fa fa-share-alt"></i>
+        <h6 class="icon-title">amc</h6> -->
+      </a>
+      <a href="#" class="sub-button small-6 columns" data-info="info2">
+        <i class="fa fa-share-alt"></i>
+        <h6 class="icon-title">chia sẻ</h6>
+      </a>
+    </div>
+    <div class="main-button-wrapper">
+      <a href="#" class="icon main-button" role="expand">
+        <i class="fa fa-chevron-up"></i>
+        <h6 class="icon-title">Xem thêm</h6>
+        <h6 class="icon-title alt">Thu gọn</h6>
+      </a>
+    </div>
+  </footer>
+</div>    </div>
+    <div>
+      <div class="panel event-item-panel">
+  <div class="panel-content-wrapper">
+    <div class="panel-content">
+      <header class="panel-header complex-background">
+        <div class="image" style="background-image: url('data/res/mcomics/events/3.jpg')"></div>
+        <div class="image icon icon-64" style="background-image: url('data/res/mcomics/icon/square.jpg')"></div>
+      </header>
+      <div class="panel-body">
+        <h6 class="sub-title text-center">Mcomics sắp tổ chức</h6>
+        <div class="calendar-icon icon icon-40 complex-background right">
+          <div class="icon icon-40" style="background-image: url('img/smallicons/cal.svg')"></div>
+          <div class="content text-center">
+            <h6 class="month">thg 8</h6>
+            <h6 class="date">19</h6>
+          </div>
+        </div>
+        <h6 class="title"><a class="text-link" href="#">Sự kiện chào đón sinh nhật quán!</a></h6>
+        <div class="description">
+          <p>Mô tả ngắn gọn về sự kiện này. Sự kiện có thể kéo dài từ vài giờ cho đến vài ngày. Ngày hiển thị chỉ là ngày bắt đầu...</p>
+          <hr>
+          <ul class="fa-ul">
+            <li>
+              <i class="fa-li fa fa-calendar-o"></i>
+              Từ 19 tháng 8 đến 29 tháng 8 / 2014
+            </li>
+            <li>
+              <i class="fa-li fa fa-map-marker"></i>
+              1039 Trần Hưng Đạo, Q.5
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="action-bar">
+    <div class="sub-button-wrapper row collapse">
+      <a href="#" class="sub-button small-6 columns">
+        <!-- <i class="fa fa-share-alt"></i>
+        <h6 class="icon-title">amc</h6> -->
+      </a>
+      <a href="#" class="sub-button small-6 columns" data-info="info2">
+        <i class="fa fa-share-alt"></i>
+        <h6 class="icon-title">chia sẻ</h6>
+      </a>
+    </div>
+    <div class="main-button-wrapper">
+      <a href="#" class="icon main-button" role="expand">
+        <i class="fa fa-chevron-up"></i>
+        <h6 class="icon-title">Xem thêm</h6>
+        <h6 class="icon-title alt">Thu gọn</h6>
+      </a>
+    </div>
+  </footer>
+</div>    </div>
+    <div>
+      <div class="panel event-item-panel">
+  <div class="panel-content-wrapper">
+    <div class="panel-content">
+      <header class="panel-header complex-background">
+        <div class="image" style="background-image: url('data/res/mcomics/events/3.jpg')"></div>
+        <div class="image icon icon-64" style="background-image: url('data/res/mcomics/icon/square.jpg')"></div>
+      </header>
+      <div class="panel-body">
+        <h6 class="sub-title text-center">Mcomics sắp tổ chức</h6>
+        <div class="calendar-icon icon icon-40 complex-background right">
+          <div class="icon icon-40" style="background-image: url('img/smallicons/cal.svg')"></div>
+          <div class="content text-center">
+            <h6 class="month">thg 8</h6>
+            <h6 class="date">19</h6>
+          </div>
+        </div>
+        <h6 class="title"><a class="text-link" href="#">Sự kiện chào đón sinh nhật quán!</a></h6>
+        <div class="description">
+          <p>Mô tả ngắn gọn về sự kiện này. Sự kiện có thể kéo dài từ vài giờ cho đến vài ngày. Ngày hiển thị chỉ là ngày bắt đầu...</p>
+          <hr>
+          <ul class="fa-ul">
+            <li>
+              <i class="fa-li fa fa-calendar-o"></i>
+              Từ 19 tháng 8 đến 29 tháng 8 / 2014
+            </li>
+            <li>
+              <i class="fa-li fa fa-map-marker"></i>
+              1039 Trần Hưng Đạo, Q.5
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="action-bar">
+    <div class="sub-button-wrapper row collapse">
+      <a href="#" class="sub-button small-6 columns">
+        <!-- <i class="fa fa-share-alt"></i>
+        <h6 class="icon-title">amc</h6> -->
+      </a>
+      <a href="#" class="sub-button small-6 columns" data-info="info2">
+        <i class="fa fa-share-alt"></i>
+        <h6 class="icon-title">chia sẻ</h6>
+      </a>
+    </div>
+    <div class="main-button-wrapper">
+      <a href="#" class="icon main-button" role="expand">
+        <i class="fa fa-chevron-up"></i>
+        <h6 class="icon-title">Xem thêm</h6>
+        <h6 class="icon-title alt">Thu gọn</h6>
+      </a>
+    </div>
+  </footer>
+</div>    </div>
+    <div>
+      <div class="panel event-item-panel">
+  <div class="panel-content-wrapper">
+    <div class="panel-content">
+      <header class="panel-header complex-background">
+        <div class="image" style="background-image: url('data/res/mcomics/events/3.jpg')"></div>
+        <div class="image icon icon-64" style="background-image: url('data/res/mcomics/icon/square.jpg')"></div>
+      </header>
+      <div class="panel-body">
+        <h6 class="sub-title text-center">Mcomics sắp tổ chức</h6>
+        <div class="calendar-icon icon icon-40 complex-background right">
+          <div class="icon icon-40" style="background-image: url('img/smallicons/cal.svg')"></div>
+          <div class="content text-center">
+            <h6 class="month">thg 8</h6>
+            <h6 class="date">19</h6>
+          </div>
+        </div>
+        <h6 class="title"><a class="text-link" href="#">Sự kiện chào đón sinh nhật quán!</a></h6>
+        <div class="description">
+          <p>Mô tả ngắn gọn về sự kiện này. Sự kiện có thể kéo dài từ vài giờ cho đến vài ngày. Ngày hiển thị chỉ là ngày bắt đầu...</p>
+          <hr>
+          <ul class="fa-ul">
+            <li>
+              <i class="fa-li fa fa-calendar-o"></i>
+              Từ 19 tháng 8 đến 29 tháng 8 / 2014
+            </li>
+            <li>
+              <i class="fa-li fa fa-map-marker"></i>
+              1039 Trần Hưng Đạo, Q.5
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="action-bar">
+    <div class="sub-button-wrapper row collapse">
+      <a href="#" class="sub-button small-6 columns">
+        <!-- <i class="fa fa-share-alt"></i>
+        <h6 class="icon-title">amc</h6> -->
+      </a>
+      <a href="#" class="sub-button small-6 columns" data-info="info2">
+        <i class="fa fa-share-alt"></i>
+        <h6 class="icon-title">chia sẻ</h6>
+      </a>
+    </div>
+    <div class="main-button-wrapper">
+      <a href="#" class="icon main-button" role="expand">
+        <i class="fa fa-chevron-up"></i>
+        <h6 class="icon-title">Xem thêm</h6>
+        <h6 class="icon-title alt">Thu gọn</h6>
+      </a>
+    </div>
+  </footer>
+</div>    </div>
+  </div>
 
-	<footer class="section-footer pagination-centered">
-		<ul class="pagination">
-		</ul>
-	</footer>
-</section>				</div>
-				<div id="mission-anc" class="mall-12 medium-4 columns">
-					<section id="mission-section">
+  <footer class="section-footer pagination-centered">
+    <ul class="pagination">
+    </ul>
+  </footer>
+</section>        </div>
+        <div id="mission-anc" class="mall-12 medium-4 columns">
+          <section id="mission-section">
 
-	<header class="section-header">
-		<img class="icon icon-32" src="img/smallicons/gift.svg" alt="mission icon">
-		<img class="title" src="img/text/gift.png" alt="mission title">
-		<dl class="sub-nav">
-			<dd><a href="">Nhiệm vụ là gì?</a></dd>
-		</dl>
-	</header>
+  <header class="section-header">
+    <img class="icon icon-32" src="img/smallicons/gift.svg" alt="mission icon">
+    <img class="title" src="img/text/gift.png" alt="mission title">
+    <dl class="sub-nav">
+      <dd><a href="">Nhiệm vụ là gì?</a></dd>
+    </dl>
+  </header>
 
 
-	<div class="content-body row">
-		<div class="comming-mission">
-			<div class="panel mission-item-panel">
-	<div class="panel-content-wrapper">
-		<div class="panel-content">
-			<header class="panel-header complex-background">
-				<div class="image" style="background-image: url('data/mission/1/1.jpg')"></div>
-			</header>
-			<div class="panel-body">
-				<h6 class="title"><a class="text-link" href="#">Ly cà phê dễ thương</a></h6>
-				<div class="description">
-					<p>Phần thưởng nhiệm vụ lần này là một ly cà phê thơm ngon dành cho 15 bạn đầu tiên “TiK” 05 hoá đơn tại Mcomics!</p>
-					<ul class="fa-ul">
-						<li>
-							<i class="fa-li fa fa-calendar-o"></i>
-							Từ nay đến 1 tháng 9
-						</li>
-						<li>
-							<i class="fa-li fa fa-gift"></i>
-							Còn 10/15 phần quà
-						</li>
-					</ul>
-					<hr>
-					<ul class="fa-ul">
-						<li>
-							<i class="fa-li fa fa-check disabled"></i>
-							<span><a href="#" class="text-link">2/5 TiK</a> tại <a href="#" class="text-link">Mcomics</a></span>
-						</li>
-						<li>
-							<i class="fa-li fa fa-check"></i>
-							<span><a href="#" class="text-link">1/1 TiK</a> tại <a href="#" class="text-link">Đom Đóm</a></span>
-						</li>
-					</ul>
-					<hr>
-					<p>16 bạn đã tham gia</p>
-					<div class="img-list">
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<footer class="action-bar alt-action-bar">
-		<div class="sub-button-wrapper row collapse">
-			<a href="#" class="sub-button small-6 columns" role="expand">
-				<i class="fa fa-chevron-up"></i>
-				<h6 class="icon-title">Xem thêm</h6>
-				<h6 class="icon-title alt">Thu gọn</h6>
-			</a>
-			<a href="#" class="sub-button small-6 columns" data-info="info2">
-				<i class="fa fa-share-alt"></i>
-				<h6 class="icon-title">chia sẻ</h6>
-			</a>
-		</div>
-		<div class="main-button-wrapper">
-			<a href="#" class="icon main-button">
-				<i class="fa fa-check"></i>
-				<h6 class="icon-title">TiK</h6>
-			</a>
-		</div>
-	</footer>
-</div>		</div>
-		<div>
-			<div class="panel mission-item-panel">
-	<div class="panel-content-wrapper">
-		<div class="panel-content">
-			<header class="panel-header complex-background">
-				<div class="image" style="background-image: url('data/mission/1/1.jpg')"></div>
-			</header>
-			<div class="panel-body">
-				<h6 class="title"><a class="text-link" href="#">Ly cà phê dễ thương</a></h6>
-				<div class="description">
-					<p>Phần thưởng nhiệm vụ lần này là một ly cà phê thơm ngon dành cho 15 bạn đầu tiên “TiK” 05 hoá đơn tại Mcomics!</p>
-					<ul class="fa-ul">
-						<li>
-							<i class="fa-li fa fa-calendar-o"></i>
-							Từ nay đến 1 tháng 9
-						</li>
-						<li>
-							<i class="fa-li fa fa-gift"></i>
-							Còn 10/15 phần quà
-						</li>
-					</ul>
-					<hr>
-					<ul class="fa-ul">
-						<li>
-							<i class="fa-li fa fa-check disabled"></i>
-							<span><a href="#" class="text-link">2/5 TiK</a> tại <a href="#" class="text-link">Mcomics</a></span>
-						</li>
-						<li>
-							<i class="fa-li fa fa-check"></i>
-							<span><a href="#" class="text-link">1/1 TiK</a> tại <a href="#" class="text-link">Đom Đóm</a></span>
-						</li>
-					</ul>
-					<hr>
-					<p>16 bạn đã tham gia</p>
-					<div class="img-list">
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-						<div class="friend-ava"></div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<footer class="action-bar alt-action-bar">
-		<div class="sub-button-wrapper row collapse">
-			<a href="#" class="sub-button small-6 columns" role="expand">
-				<i class="fa fa-chevron-up"></i>
-				<h6 class="icon-title">Xem thêm</h6>
-				<h6 class="icon-title alt">Thu gọn</h6>
-			</a>
-			<a href="#" class="sub-button small-6 columns" data-info="info2">
-				<i class="fa fa-share-alt"></i>
-				<h6 class="icon-title">chia sẻ</h6>
-			</a>
-		</div>
-		<div class="main-button-wrapper">
-			<a href="#" class="icon main-button">
-				<i class="fa fa-check"></i>
-				<h6 class="icon-title">TiK</h6>
-			</a>
-		</div>
-	</footer>
-</div>		</div>
-	</div>
+  <div class="content-body row">
+    <div class="comming-mission">
+      <div class="panel mission-item-panel">
+  <div class="panel-content-wrapper">
+    <div class="panel-content">
+      <header class="panel-header complex-background">
+        <div class="image" style="background-image: url('data/mission/1/1.jpg')"></div>
+      </header>
+      <div class="panel-body">
+        <h6 class="title"><a class="text-link" href="#">Ly cà phê dễ thương</a></h6>
+        <div class="description">
+          <p>Phần thưởng nhiệm vụ lần này là một ly cà phê thơm ngon dành cho 15 bạn đầu tiên “TiK” 05 hoá đơn tại Mcomics!</p>
+          <ul class="fa-ul">
+            <li>
+              <i class="fa-li fa fa-calendar-o"></i>
+              Từ nay đến 1 tháng 9
+            </li>
+            <li>
+              <i class="fa-li fa fa-gift"></i>
+              Còn 10/15 phần quà
+            </li>
+          </ul>
+          <hr>
+          <ul class="fa-ul">
+            <li>
+              <i class="fa-li fa fa-check disabled"></i>
+              <span><a href="#" class="text-link">2/5 TiK</a> tại <a href="#" class="text-link">Mcomics</a></span>
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              <span><a href="#" class="text-link">1/1 TiK</a> tại <a href="#" class="text-link">Đom Đóm</a></span>
+            </li>
+          </ul>
+          <hr>
+          <p>16 bạn đã tham gia</p>
+          <div class="img-list">
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="action-bar alt-action-bar">
+    <div class="sub-button-wrapper row collapse">
+      <a href="#" class="sub-button small-6 columns" role="expand">
+        <i class="fa fa-chevron-up"></i>
+        <h6 class="icon-title">Xem thêm</h6>
+        <h6 class="icon-title alt">Thu gọn</h6>
+      </a>
+      <a href="#" class="sub-button small-6 columns" data-info="info2">
+        <i class="fa fa-share-alt"></i>
+        <h6 class="icon-title">chia sẻ</h6>
+      </a>
+    </div>
+    <div class="main-button-wrapper">
+      <a href="#" class="icon main-button">
+        <i class="fa fa-check"></i>
+        <h6 class="icon-title">TiK</h6>
+      </a>
+    </div>
+  </footer>
+</div>    </div>
+    <div>
+      <div class="panel mission-item-panel">
+  <div class="panel-content-wrapper">
+    <div class="panel-content">
+      <header class="panel-header complex-background">
+        <div class="image" style="background-image: url('data/mission/1/1.jpg')"></div>
+      </header>
+      <div class="panel-body">
+        <h6 class="title"><a class="text-link" href="#">Ly cà phê dễ thương</a></h6>
+        <div class="description">
+          <p>Phần thưởng nhiệm vụ lần này là một ly cà phê thơm ngon dành cho 15 bạn đầu tiên “TiK” 05 hoá đơn tại Mcomics!</p>
+          <ul class="fa-ul">
+            <li>
+              <i class="fa-li fa fa-calendar-o"></i>
+              Từ nay đến 1 tháng 9
+            </li>
+            <li>
+              <i class="fa-li fa fa-gift"></i>
+              Còn 10/15 phần quà
+            </li>
+          </ul>
+          <hr>
+          <ul class="fa-ul">
+            <li>
+              <i class="fa-li fa fa-check disabled"></i>
+              <span><a href="#" class="text-link">2/5 TiK</a> tại <a href="#" class="text-link">Mcomics</a></span>
+            </li>
+            <li>
+              <i class="fa-li fa fa-check"></i>
+              <span><a href="#" class="text-link">1/1 TiK</a> tại <a href="#" class="text-link">Đom Đóm</a></span>
+            </li>
+          </ul>
+          <hr>
+          <p>16 bạn đã tham gia</p>
+          <div class="img-list">
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+            <div class="friend-ava"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="action-bar alt-action-bar">
+    <div class="sub-button-wrapper row collapse">
+      <a href="#" class="sub-button small-6 columns" role="expand">
+        <i class="fa fa-chevron-up"></i>
+        <h6 class="icon-title">Xem thêm</h6>
+        <h6 class="icon-title alt">Thu gọn</h6>
+      </a>
+      <a href="#" class="sub-button small-6 columns" data-info="info2">
+        <i class="fa fa-share-alt"></i>
+        <h6 class="icon-title">chia sẻ</h6>
+      </a>
+    </div>
+    <div class="main-button-wrapper">
+      <a href="#" class="icon main-button">
+        <i class="fa fa-check"></i>
+        <h6 class="icon-title">TiK</h6>
+      </a>
+    </div>
+  </footer>
+</div>    </div>
+  </div>
 
-	<footer class="section-footer pagination-centered">
-		<ul class="pagination">
-		</ul>
-	</footer>
+  <footer class="section-footer pagination-centered">
+    <ul class="pagination">
+    </ul>
+  </footer>
 
 </section>
-				</div>
-			</div>
-		</div>
-	</div>
-</section>			<section id="res-mag">
-	<div class="container">
-		<!-- Content -->
-		<div class="tabs-content">
-			<section role="tabpanel" aria-hidden="false" class="content active" id="menu-section">
-				<div class="complex-background">
-	<div class="menu-bg">
-		<div class="menu-corners">
-			<div class="menu-corner"></div>
-			<div class="menu-corner"></div>
-			<div class="menu-corner"></div>
-			<div class="menu-corner"></div>
-		</div>
-		<div class="menu-papers-wrapper">
-			<div class="menu-papers">
-				<div class="menu-papers ">
-					<div class="menu-papers row">
-						<!-- <div class="paper-shadow shadow-left small-6 column"> -->
-						<!-- </div> -->
-						<!-- <div class="paper-shadow shadow-right small-6 column"> -->
-						<!-- </div> -->
-						<div class="menu-spiral">
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="menu-content row">
-		<div class="menu-page">
-			<div class="page-content-wrapper">
-				<div class="page-content cover">
-	<div class="content">
-		<img src="img/menu/cover_coffee.png" width="256" height="256" alt="coffee cover">
-	</div>
-</div>				<div class="page-number">1/5</div>
-			</div>
-		</div>
-		<div class="menu-page">
-			<div class="page-content-wrapper">
-				<div class="page-content">
-	<div class="content">
-		<ul class="no-bullet">
-			<li>
-				<h6 class="price">27</h6>
-				<h6 class="title">cà phê nóng</h6>
-				<p class="description">Hot coffee</p>
-			</li>
-			<li>
-				<h6 class="price">30</h6>
-				<h6 class="title">cà phê đá</h6>
-				<p class="description">Coffee with ice</p>
-			</li>
-			<li>
-				<h6 class="price">29</h6>
-				<h6 class="title">cà phê sữa nóng</h6>
-				<p class="description">White coffee</p>
-			</li>
-			<li>
-				<h6 class="price">35</h6>
-				<h6 class="title">cà phê sữa đá</h6>
-				<p class="description">White coffee with ice</p>
-			</li>
-			<li>
-				<h6 class="price">40</h6>
-				<h6 class="title">cà phê rum</h6>
-				<p class="description">Rum coffee</p>
-			</li>
-			<li>
-				<h6 class="price">42</h6>
-				<h6 class="title">cà phê kem</h6>
-				<p class="description">Cream coffee</p>
-			</li>
-		</ul>
-	</div>
-</div>				<div class="page-number">2/5</div>
-			</div>
-		</div>
-		<div class="menu-page">
-			<div class="page-content-wrapper">
-				<div class="page-content">
-	<div class="content">
-		<ul class="no-bullet">
-			<li>
-				<h6 class="price">29</h6>
-				<h6 class="title">Bạc xỉu nóng</h6>
-				<p class="description">Vietnamese Latte</p>
-			</li>
-			<li>
-				<h6 class="price">31</h6>
-				<h6 class="title">Bạc xỉu đá</h6>
-				<p class="description">Vietnamese Latte with ice</p>
-			</li>
-		</ul>
-	</div>
-</div>				<div class="page-number">3/5</div>
-			</div>
-		</div>
-		<div class="menu-page">
-			<div class="page-content-wrapper">
-				<div class="page-content cover">
-	<div class="content">
-		<img src="img/menu/cover_milk.png" width="256" height="256" alt="milk cover">
-	</div>
-</div>				<div class="page-number">4/5</div>
-			</div>
-		</div>
-		<div class="menu-page">
-			<div class="page-content-wrapper">
-				<div class="page-content">
-	<div class="content">
-		<ul class="no-bullet">
-			<li>
-				<h6 class="price">30</h6>
-				<h6 class="title">sữa tươi đá</h6>
-				<p class="description">Fresh milk with ice</p>
-			</li>
-			<li>
-				<h6 class="price">35</h6>
-				<h6 class="title">sữa tươi không đá</h6>
-				<p class="description">Fresh milk without ice</p>
-			</li>
-			<li>
-				<h6 class="price">34</h6>
-				<h6 class="title">sữa tươi ca cao</h6>
-				<p class="description">Fresh milk with cocoa</p>
-			</li>
-			<li>
-				<h6 class="price">34</h6>
-				<h6 class="title">sữa tươi cà phê</h6>
-				<p class="description">Fresh milk with coffee</p>
-			</li>
-			<li>
-				<h6 class="price">32</h6>
-				<h6 class="title">sữa lắc</h6>
-				<p class="description">Milk shake</p>
-			</li>
-		</ul>
-	</div>
-</div>				<div class="page-number">5/5</div>
-			</div>
-		</div>
-	</div>
-</div>			</section>
-			<section role="tabpanel" aria-hidden="true" class="content" id="gallery-section">
-				<div class="gallery-main">
-	<div class="gallery-main-picture active">
-		<img data-lazy="data/res/mcomics/gallery/1.jpg" src="img/blank.gif" alt="gallery picture"/>
-	</div>
-	<div class="gallery-main-picture">
-		<img data-lazy="data/res/mcomics/gallery/2.jpg" src="img/blank.gif" alt="gallery picture"/>
-	</div>
-	<div class="gallery-main-picture">
-		<img data-lazy="data/res/mcomics/gallery/3.jpg" src="img/blank.gif" alt="gallery picture"/>
-	</div>
-	<div class="gallery-main-picture">
-		<img data-lazy="data/res/mcomics/gallery/4.jpg" src="img/blank.gif" alt="gallery picture"/>
-	</div>
-	<div class="gallery-main-picture">
-		<img data-lazy="data/res/mcomics/gallery/5.jpg" src="img/blank.gif" alt="gallery picture"/>
-	</div>
-	<div class="gallery-main-picture">
-		<img data-lazy="data/res/mcomics/gallery/6.jpg" src="img/blank.gif" alt="gallery picture"/>
-	</div>
-	<div class="gallery-main-picture">
-		<img data-lazy="data/res/mcomics/gallery/7.jpg" src="img/blank.gif" alt="gallery picture"/>
-	</div>
-	<div class="gallery-main-picture">
-		<img data-lazy="data/res/mcomics/gallery/8.jpg" src="img/blank.gif" alt="gallery picture"/>
-	</div>
-	<div class="gallery-main-picture">
-		<img data-lazy="data/res/mcomics/gallery/9.jpg" src="img/blank.gif" alt="gallery picture"/>
-	</div>
-	<div class="gallery-main-picture">
-		<img data-lazy="data/res/mcomics/gallery/10.jpg" src="img/blank.gif" alt="gallery picture"/>
-	</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>      <section id="res-mag">
+  <div class="container">
+    <!-- Content -->
+    <div class="tabs-content">
+      <section role="tabpanel" aria-hidden="false" class="content active" id="menu-section">
+        <div class="complex-background">
+  <div class="menu-bg">
+    <div class="menu-corners">
+      <div class="menu-corner"></div>
+      <div class="menu-corner"></div>
+      <div class="menu-corner"></div>
+      <div class="menu-corner"></div>
+    </div>
+    <div class="menu-papers-wrapper">
+      <div class="menu-papers">
+        <div class="menu-papers ">
+          <div class="menu-papers row">
+            <!-- <div class="paper-shadow shadow-left small-6 column"> -->
+            <!-- </div> -->
+            <!-- <div class="paper-shadow shadow-right small-6 column"> -->
+            <!-- </div> -->
+            <div class="menu-spiral">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="menu-content row">
+    <div class="menu-page">
+      <div class="page-content-wrapper">
+        <div class="page-content cover">
+  <div class="content">
+    <img src="img/menu/cover_coffee.png" width="256" height="256" alt="coffee cover">
+  </div>
+</div>        <div class="page-number">1/5</div>
+      </div>
+    </div>
+    <div class="menu-page">
+      <div class="page-content-wrapper">
+        <div class="page-content">
+  <div class="content">
+    <ul class="no-bullet">
+      <li>
+        <h6 class="price">27</h6>
+        <h6 class="title">cà phê nóng</h6>
+        <p class="description">Hot coffee</p>
+      </li>
+      <li>
+        <h6 class="price">30</h6>
+        <h6 class="title">cà phê đá</h6>
+        <p class="description">Coffee with ice</p>
+      </li>
+      <li>
+        <h6 class="price">29</h6>
+        <h6 class="title">cà phê sữa nóng</h6>
+        <p class="description">White coffee</p>
+      </li>
+      <li>
+        <h6 class="price">35</h6>
+        <h6 class="title">cà phê sữa đá</h6>
+        <p class="description">White coffee with ice</p>
+      </li>
+      <li>
+        <h6 class="price">40</h6>
+        <h6 class="title">cà phê rum</h6>
+        <p class="description">Rum coffee</p>
+      </li>
+      <li>
+        <h6 class="price">42</h6>
+        <h6 class="title">cà phê kem</h6>
+        <p class="description">Cream coffee</p>
+      </li>
+    </ul>
+  </div>
+</div>        <div class="page-number">2/5</div>
+      </div>
+    </div>
+    <div class="menu-page">
+      <div class="page-content-wrapper">
+        <div class="page-content">
+  <div class="content">
+    <ul class="no-bullet">
+      <li>
+        <h6 class="price">29</h6>
+        <h6 class="title">Bạc xỉu nóng</h6>
+        <p class="description">Vietnamese Latte</p>
+      </li>
+      <li>
+        <h6 class="price">31</h6>
+        <h6 class="title">Bạc xỉu đá</h6>
+        <p class="description">Vietnamese Latte with ice</p>
+      </li>
+    </ul>
+  </div>
+</div>        <div class="page-number">3/5</div>
+      </div>
+    </div>
+    <div class="menu-page">
+      <div class="page-content-wrapper">
+        <div class="page-content cover">
+  <div class="content">
+    <img src="img/menu/cover_milk.png" width="256" height="256" alt="milk cover">
+  </div>
+</div>        <div class="page-number">4/5</div>
+      </div>
+    </div>
+    <div class="menu-page">
+      <div class="page-content-wrapper">
+        <div class="page-content">
+  <div class="content">
+    <ul class="no-bullet">
+      <li>
+        <h6 class="price">30</h6>
+        <h6 class="title">sữa tươi đá</h6>
+        <p class="description">Fresh milk with ice</p>
+      </li>
+      <li>
+        <h6 class="price">35</h6>
+        <h6 class="title">sữa tươi không đá</h6>
+        <p class="description">Fresh milk without ice</p>
+      </li>
+      <li>
+        <h6 class="price">34</h6>
+        <h6 class="title">sữa tươi ca cao</h6>
+        <p class="description">Fresh milk with cocoa</p>
+      </li>
+      <li>
+        <h6 class="price">34</h6>
+        <h6 class="title">sữa tươi cà phê</h6>
+        <p class="description">Fresh milk with coffee</p>
+      </li>
+      <li>
+        <h6 class="price">32</h6>
+        <h6 class="title">sữa lắc</h6>
+        <p class="description">Milk shake</p>
+      </li>
+    </ul>
+  </div>
+</div>        <div class="page-number">5/5</div>
+      </div>
+    </div>
+  </div>
+</div>      </section>
+      <section role="tabpanel" aria-hidden="true" class="content" id="gallery-section">
+        <div class="gallery-main">
+  <div class="gallery-main-picture active">
+    <img data-lazy="data/res/mcomics/gallery/1.jpg" src="img/blank.gif" alt="gallery picture"/>
+  </div>
+  <div class="gallery-main-picture">
+    <img data-lazy="data/res/mcomics/gallery/2.jpg" src="img/blank.gif" alt="gallery picture"/>
+  </div>
+  <div class="gallery-main-picture">
+    <img data-lazy="data/res/mcomics/gallery/3.jpg" src="img/blank.gif" alt="gallery picture"/>
+  </div>
+  <div class="gallery-main-picture">
+    <img data-lazy="data/res/mcomics/gallery/4.jpg" src="img/blank.gif" alt="gallery picture"/>
+  </div>
+  <div class="gallery-main-picture">
+    <img data-lazy="data/res/mcomics/gallery/5.jpg" src="img/blank.gif" alt="gallery picture"/>
+  </div>
+  <div class="gallery-main-picture">
+    <img data-lazy="data/res/mcomics/gallery/6.jpg" src="img/blank.gif" alt="gallery picture"/>
+  </div>
+  <div class="gallery-main-picture">
+    <img data-lazy="data/res/mcomics/gallery/7.jpg" src="img/blank.gif" alt="gallery picture"/>
+  </div>
+  <div class="gallery-main-picture">
+    <img data-lazy="data/res/mcomics/gallery/8.jpg" src="img/blank.gif" alt="gallery picture"/>
+  </div>
+  <div class="gallery-main-picture">
+    <img data-lazy="data/res/mcomics/gallery/9.jpg" src="img/blank.gif" alt="gallery picture"/>
+  </div>
+  <div class="gallery-main-picture">
+    <img data-lazy="data/res/mcomics/gallery/10.jpg" src="img/blank.gif" alt="gallery picture"/>
+  </div>
 </div>
-			</section>
-		</div>
-		<!-- Menu -->
-		<ul class="tabs" data-tab role="tablist">
-			<li class="tab-title active" role="presentational" >
-				<a href="#menu-section" role="tab" tabindex="0" aria-selected="true" controls="menu-section">
-					Thực đơn
-				</a>
-			</li>
-			<span class="divider">&bull;</span>
-			<li class="tab-title" role="presentational" >
-				<a href="#gallery-section" role="tab" tabindex="0" aria-selected="false" controls="gallery-section">
-					Hình ảnh
-				</a>
-			</li>
-		</ul>
-	</div>
-</section>			<section id="res-story">
-	<div class="complex-background" style="overflow: hidden">
-		<div id="story-img" class="image">
-			<img src="data/res/mcomics/bg2.jpg" alt="background">
-		</div>
-		<div class="overlay pattern"></div>
-		<div class="content container">
-			<div class="story-content">
-				<header class="story-header">
-					<div class="story-text hide-for-small-only" style="background-image: url('img/text/story.png')">
-					</div>
-					<div class="story-text show-for-small-only" style="background-image: url('img/text/story-small.png')">
-					</div>
-					<div class="multiple-th hide-for-small-only">
-						<div class="image th"></div>
-						<div class="image th"></div>
-						<div class="image th main" style="background-image: url('data/res/mcomics/icon/square.jpg')"></div>
-					</div>
-				</header>
-				<div class="story-body">
-					<p>Những fan của truyện tranh, và yêu thích hình vẽ Manga thì không thể nào không biết Hội quán truyện tranh Mcomics tại 99B Võ Thị Sáu. Để phục vụ các "tín đồ mê truyện tranh", ngày 12-7 vừa qua, một chi nhánh nữa của Mcomics khai trương trên đường Trần Hưng Đạo - Q5.  Vẫn mang phong cách manga và lối kiến trúc cũ - 1 trệt và 1 gác gỗ - như người anh bên Võ Thị Sáu nhưng Mcomics Trần Hưng Đạo có phần nổi trội hơn với các đường nét mang phong cách l'amour - hoa văn. Theo một số đánh giá thì nhìn "pro"  hơn người anh một chút. Từ cách bài trí ngộ nghĩnh, đến các hình vẽ tất cả sẽ thật sự mang lại ấn tượng cho bạn.</p>
-					<p>Bạn đi một mình? Đừng sợ buồn.  Với một kệ truyện đầy, bạn có thể thoải mái đọc truyện tranh trên những chiếc ghế gỗ đôi, hay tại mấy cái nệm êm ơi là êm. Bên cạnh đó, bạn còn có thể bị cuốn hút bởi những trò chơi giải trí đầy trí tuệ và hấp dẫn. Rồi cùng gia nhập vào một nhóm nào đó và... có thể quen một số bạn mới nữa chứ.</p>
-					<p>Wow! Nhóm bạn quá đông? Càng đông càng vui!  Nhóm của bạn sẽ càng vui hơn với các trò chơi như tìm hung thủ, xếp gạch, domino... Đặc biệt bài UNO. Đây là loại bài chơi nhanh và năng động. Đừng sợ không biết chơi, các bạn phục vụ ngoài việc làm hài lòng các thượng đế về các order còn là những sư phụ bất đắc dĩ cho bạn nữa.  </p>
-				</div>
-			</div>
-			<div class="since-text">
-				<h3>2009</h3>
-			</div>
-		</div>
-	</div>
-</section>			<footer class="main-footer">
-	<img src="img/text/footer.png" width="243" height="31" alt="goodbye">
-</footer>			<div class="show-for-small-only" style="height: 7.4rem; width: 100%">
-			</div>
-		</div>
+      </section>
+    </div>
+    <!-- Menu -->
+    <ul class="tabs" data-tab role="tablist">
+      <li class="tab-title active" role="presentational" >
+        <a href="#menu-section" role="tab" tabindex="0" aria-selected="true" controls="menu-section">
+          Thực đơn
+        </a>
+      </li>
+      <span class="divider">&bull;</span>
+      <li class="tab-title" role="presentational" >
+        <a href="#gallery-section" role="tab" tabindex="0" aria-selected="false" controls="gallery-section">
+          Hình ảnh
+        </a>
+      </li>
+    </ul>
+  </div>
+</section>      <section id="res-story">
+  <div class="complex-background" style="overflow: hidden">
+    <div id="story-img" class="image">
+      <img src="data/res/mcomics/bg2.jpg" alt="background">
+    </div>
+    <div class="overlay pattern"></div>
+    <div class="content container">
+      <div class="story-content">
+        <header class="story-header">
+          <div class="story-text hide-for-small-only" style="background-image: url('img/text/story.png')">
+          </div>
+          <div class="story-text show-for-small-only" style="background-image: url('img/text/story-small.png')">
+          </div>
+          <div class="multiple-th hide-for-small-only">
+            <div class="image th"></div>
+            <div class="image th"></div>
+            <div class="image th main" style="background-image: url('data/res/mcomics/icon/square.jpg')"></div>
+          </div>
+        </header>
+        <div class="story-body">
+          <p>Những fan của truyện tranh, và yêu thích hình vẽ Manga thì không thể nào không biết Hội quán truyện tranh Mcomics tại 99B Võ Thị Sáu. Để phục vụ các "tín đồ mê truyện tranh", ngày 12-7 vừa qua, một chi nhánh nữa của Mcomics khai trương trên đường Trần Hưng Đạo - Q5.  Vẫn mang phong cách manga và lối kiến trúc cũ - 1 trệt và 1 gác gỗ - như người anh bên Võ Thị Sáu nhưng Mcomics Trần Hưng Đạo có phần nổi trội hơn với các đường nét mang phong cách l'amour - hoa văn. Theo một số đánh giá thì nhìn "pro"  hơn người anh một chút. Từ cách bài trí ngộ nghĩnh, đến các hình vẽ tất cả sẽ thật sự mang lại ấn tượng cho bạn.</p>
+          <p>Bạn đi một mình? Đừng sợ buồn.  Với một kệ truyện đầy, bạn có thể thoải mái đọc truyện tranh trên những chiếc ghế gỗ đôi, hay tại mấy cái nệm êm ơi là êm. Bên cạnh đó, bạn còn có thể bị cuốn hút bởi những trò chơi giải trí đầy trí tuệ và hấp dẫn. Rồi cùng gia nhập vào một nhóm nào đó và... có thể quen một số bạn mới nữa chứ.</p>
+          <p>Wow! Nhóm bạn quá đông? Càng đông càng vui!  Nhóm của bạn sẽ càng vui hơn với các trò chơi như tìm hung thủ, xếp gạch, domino... Đặc biệt bài UNO. Đây là loại bài chơi nhanh và năng động. Đừng sợ không biết chơi, các bạn phục vụ ngoài việc làm hài lòng các thượng đế về các order còn là những sư phụ bất đắc dĩ cho bạn nữa.  </p>
+        </div>
+      </div>
+      <div class="since-text">
+        <h3>2009</h3>
+      </div>
+    </div>
+  </div>
+</section>      <footer class="main-footer">
+  <img src="img/text/footer.png" width="243" height="31" alt="goodbye">
+</footer>     <div class="show-for-small-only" style="height: 7.4rem; width: 100%">
+      </div>
+    </div>
 
-		<!-- load dependencies first -->
+    <!-- load dependencies first -->
 <script src="js/base.min.js"></script>
 <!-- then load the app -->
 <script src="js/app.min.js"></script>
 <!-- now load the heavy map -->
-<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBdyoUD3SUSImvNFS9gzswVCETuHP0Ruhg"></script>
-<script src="js/components/map.min.js"></script>	</body>
+<script src="//maps.googleapis.com/maps/api/js?key=AIzaSyBdyoUD3SUSImvNFS9gzswVCETuHP0Ruhg"></script>
+<script src="js/components/map.min.js"></script>  </body>
 
 </html>
